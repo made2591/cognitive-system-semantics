@@ -1,0 +1,25 @@
+18/07/2017 11:55:58.789 - [Fase        ] - Sentence in ingresso: 'Non riesce ad appoggiare la pianta del piede perché ha un profondo taglio vicino all'alluce.'
+18/07/2017 11:55:58.796 - [Fase        ] - Eseguo Lesk Extended su tutti i termini della sentence (ancora da stemmatizzare): 'riesce appoggiare pianta piede perch profondo taglio vicino allalluce'
+18/07/2017 11:55:58.797 - [Task        ] - Analizzo il termine 'riesce' - 1 di 9
+18/07/2017 11:55:58.797 - [Task        ] - Creo il contesto a partire dalla sentence
+18/07/2017 11:56:00.164 - [Task        ] - Creato il contesto: riuscire; appoggiare; piangere; piede; perch; profondare; tagliare; vicino; allalluce
+18/07/2017 11:56:00.317 - [Task        ] - Analizzo ogni senso del termine riesce
+18/07/2017 11:56:00.318 - [Task        ] - Trovato senso migliore: 'NO_SENSE'
+18/07/2017 11:56:00.318 - [Task        ] - Analizzo il termine 'appoggiare' - 2 di 9
+18/07/2017 11:56:00.318 - [Task        ] - Creato il contesto: riuscire; appoggiare; piangere; piede; perch; profondare; tagliare; vicino; allalluce
+18/07/2017 11:56:00.381 - [Task        ] - Analizzo ogni senso del termine appoggiare
+18/07/2017 11:56:00.381 - [Azione      ] - Analizzo il senso 'bn:00082985v' - 1 di 10
+18/07/2017 11:56:00.778 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:00.779 - [Azione      ] - Analizzo il senso 'bn:00094612v' - 2 di 10
+18/07/2017 11:56:01.879 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:01.880 - [Azione      ] - Analizzo il senso 'bn:00082995v' - 3 di 10
+18/07/2017 11:56:02.717 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:02.718 - [Azione      ] - Analizzo il senso 'bn:00082983v' - 4 di 10
+18/07/2017 11:56:03.508 - [Azione      ] - Overlap trovato per la signature del senso: 1
+18/07/2017 11:56:03.509 - [Azione      ] - Analizzo il senso 'bn:00084766v' - 5 di 10
+18/07/2017 11:56:03.869 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:03.870 - [Azione      ] - Analizzo il senso 'bn:00088063v' - 6 di 10
+18/07/2017 11:56:04.156 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:04.156 - [Azione      ] - Analizzo il senso 'bn:00090224v' - 7 di 10
+18/07/2017 11:56:06.204 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:56:06.204 - [Azione      ] - Analizzo il senso 'bn:00085413v' - 8 di 10

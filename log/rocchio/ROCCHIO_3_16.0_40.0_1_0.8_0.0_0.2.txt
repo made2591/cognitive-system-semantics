@@ -1,0 +1,16 @@
+18/07/2017 09:10:06.295 - [Fase        ] - Inizio il training
+18/07/2017 09:10:06.297 - [Task        ] - Carico un dump E RANDOMIZZO l'ordine dei documenti per training/developing/testing
+18/07/2017 09:10:07.322 - [Fase        ] - Inizio la costruzione dello space vector model
+18/07/2017 09:10:07.323 - [Task        ] - Calcolo il vettore TF per i 200 documenti usati per il training
+18/07/2017 09:10:07.324 - [Task        ] - Calcolo il vettore IDF per i 0 termini (dimensioni) dello spazio
+18/07/2017 09:10:07.324 - [Task        ] - Calcolo il centroide per le 0 classi individuate
+18/07/2017 09:10:07.325 - [Task        ] - Inizio il testing per il calcolo dei NEAR POSITIVE (distanzio centroidi più vicini)
+18/07/2017 09:10:07.325 - [Task        ] - Calcolo i NEAR POSITIVE facendo testing e guardando gli errori sui documenti di training
+18/07/2017 09:10:07.325 - [Fase        ] - Inizio il testing
+18/07/2017 09:10:07.326 - [Fase        ] - Fine test. Corretti su totali: 0/0
+18/07/2017 09:10:07.326 - [Azione      ] - Viene considerata NEAR POSITIVE solo la classe con cui sono stati fatti più errori. 1 sola classe arbitraria se ci sono più classi con pari # errori
+18/07/2017 09:10:07.327 - [Task        ] - Ricalcolo i centroidi sfruttando i NEAR POSITIVE
+18/07/2017 09:10:07.327 - [Fase        ] - Fine del training
+18/07/2017 09:10:07.327 - [Task        ] - Testing sui testing documents
+18/07/2017 09:10:07.327 - [Fase        ] - Inizio il testing
+18/07/2017 09:10:07.328 - [Fase        ] - Fine test. Corretti su totali: 0/0

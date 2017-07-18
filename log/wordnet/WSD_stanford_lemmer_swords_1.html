@@ -1,0 +1,2027 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WSD</title>
+
+    <!-- Bootstrap -->
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../lib/js/bootstrap.min.js"></script><body class=" ext-webkit ext-chrome ext-mac">
+
+    <div class="container">
+ <div class="jumbotron">
+        <h3>Esercitazione 1 - Radicioni WSD</h3>
+        <p class="lead">Questo file contiene il log dell'Esercitazione 1. Per maggiori informazioni sulle scelte implementative fare riferimento alla relazione. <br/><br/>I file di log di questo esercizio si trovano in:<br/>wordnet/WSD_stanford_lemmer_swords_1<br/>Con il significato di: WSD_[stemmer_val/lemmer]_[swords_val].[html && txt]</p>
+      </div>
+
+      <div class="row marketing">
+<h1>Giorno: Jul 18, 2017 23:51</h1>
+<table class="table">
+      <thead>
+        <tr>
+          <th style="width: 15%;">Livello</th>
+          <th style="width: 20%;">Giorno e ora</th>
+          <th style="width: 65%;">Messaggio</th>
+     </tr>
+      </thead>
+      <tbody>	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Sentence in ingresso: 'The house was burnt to ashes while the owner returned.'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'The house was burnt to ashes w...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'the; the; to; was; while; '</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Chiamo LESK su tutti i termini della sentence (ancora da stemmatizzare): 'house burnt ashes owner returned'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il termine 'house' - 1 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creo il contesto a partire dalla sentence</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creato il contesto: house; burnt; ash; owner; return
+</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo ogni senso del termine</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@3544360[house] - a dwelling that serves as living quarters for one or more families' - 1 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; as; for; or; that; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; as; for; or; that; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; as; for; or; that; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8059870[firm,house,business firm] - the members of a business organization that owns or operates one or more establishments' - 2 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the members of a business orga...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; of; or; or; that; the; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the members of a business orga...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; of; or; or; that; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8224580[house] - the members of a religious community living together' - 3 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the members of a religious com...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; of; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8222966[house] - the audience gathered together in a theatre or cinema' - 4 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the audience gathered together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; or; the; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the audience gathered together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; or; the; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the audience gathered together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; or; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8163025[house] - an official assembly having legislative powers' - 5 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'an official assembly having le...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'an; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'an official assembly having le...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'an; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@7971449[house] - aristocratic family line' - 6 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'aristocratic family line...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'aristocratic family line...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@432164[house] - play in which children take the roles of father or mother or children and pretend to interact like adults' - 7 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'play in which children take th...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'and; in; like; of; or; or; the; to; which; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'play in which children take th...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'and; in; like; of; or; or; the; to; which; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8685677[sign of the zodiac,star sign,sign,mansion,house,planetary house] - (astrology) one of 12 equal areas into which the zodiac is divided' - 8 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa '(astrology) one of 12 equal ar...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'into; is; of; the; which; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8381296[house] - the management of a gambling house or casino' - 9 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the management of a gambling h...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; of; or; the; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the management of a gambling h...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; of; or; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@8078020[family,household,house,home,menage] - a social unit living together' - 10 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a social unit living together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a social unit living together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a social unit living together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a social unit living together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a social unit living together...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@4417809[theater,theatre,house] - a building where theatrical performances or motion-picture shows can be presented' - 11 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a building where theatrical pe...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; be; can; or; where; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a building where theatrical pe...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; be; can; or; where; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@3545150[house] - a building in which something is sheltered or located' - 12 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a building in which something ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; is; or; which; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a building in which something ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; is; or; which; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2701828[house] - contain or cover' - 13 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'contain or cover...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'contain or cover...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2459173[house,put up,domiciliate] - provide housing for' - 14 di 14</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'provide housing for...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'for; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'provide housing for...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'for; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Trovato senso migliore: 'a dwelling that serves as living quarters for one or more families'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il termine 'burnt' - 2 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creato il contesto: house; burnt; ash; owner; return
+</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo ogni senso del termine</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@378664[burn,fire,burn down] - destroy by fire' - 1 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroy by fire...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroy by fire...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2768874[burn,glow] - shine intensely, as if with heat' - 2 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'as; if; with; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'as; if; with; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'as; if; with; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@377002[burn,combust] - undergo combustion' - 3 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'undergo combustion...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'undergo combustion...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2120451[bite,sting,burn] - cause a sharp or stinging pain or discomfort' - 4 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause a sharp or stinging pain...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; or; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause a sharp or stinging pain...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; or; or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2762468[burn,combust] - cause to burn or combust' - 5 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1829292[burn] - feel strong emotion, especially anger or passion' - 6 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@378042[burn,incinerate] - cause to undergo combustion' - 7 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2485322[burn] - burn at the stake' - 8 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn at the stake...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'at; the; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn at the stake...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'at; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2268881[burn] - spend (significant amounts of money)' - 9 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'spend (significant amounts of ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'of; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'spend (significant amounts of ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'of; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2121048[burn] - feel hot or painful' - 10 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'feel hot or painful...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'feel hot or painful...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@373766[cauterize,cauterise,burn] - burn, sear, or freeze (tissue) using a hot iron or electric current or a caustic agent' - 11 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn, sear, or freeze (tissue)...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; or; or; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn, sear, or freeze (tissue)...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; or; or; or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@104299[sunburn,burn] - get a sunburn by overexposure to the sun' - 12 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'get a sunburn by overexposure ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; by; get; the; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1756277[cut,burn] - create by duplicating data' - 13 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'create by duplicating data...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'create by duplicating data...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'create by duplicating data...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1205000[burn off,burn,burn up] - use up (energy)' - 14 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'use up (energy)...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'use up (energy)...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@196364[burn] - burn with heat, fire, or radiation' - 15 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn with heat, fire, or radia...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; with; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'burn with heat, fire, or radia...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; with; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'AdjectiveSatellite@617137[burned,burnt] - ruined by overcooking' - 16 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'ruined by overcooking...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'ruined by overcooking...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'AdjectiveSatellite@1954263[burned,burnt] - treated by heating to a high temperature but below the melting or fusing point' - 17 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'treated by heating to a high t...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; but; by; or; the; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'treated by heating to a high t...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; but; by; or; the; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'AdjectiveSatellite@735336[burned,burnt,burned-over,burned-out,burnt-out] - destroyed or badly damaged by fire' - 18 di 18</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'by; or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Trovato senso migliore: 'destroy by fire'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il termine 'ashes' - 3 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creato il contesto: house; burnt; ash; owner; return
+</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo ogni senso del termine</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@14769160[ash] - the residue that remains when something is burned' - 1 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'the residue that remains when ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'is; that; the; when; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@12303462[ash,ash tree] - any of various deciduous pinnate-leaved ornamental or timber trees of the genus Fraxinus' - 2 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'any of various deciduous pinna...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'any; of; of; or; the; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@12303921[ash] - strong elastic wood of any of various ash trees; used for furniture and tool handles and sporting goods such as baseball bats' - 3 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'strong elastic wood of any of ...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'and; and; any; as; for; of; of; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@10825718[Ashe,Arthur Ashe,Arthur Robert Ashe] - United States tennis player who was the first Black to win United States and English singles championships (1943-1993)' - 4 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'United States tennis player wh...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'and; the; to; was; who; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@383437[ash] - convert into ashes' - 5 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'convert into ashes...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'into; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Trovato senso migliore: 'the residue that remains when something is burned'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il termine 'owner' - 4 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creato il contesto: house; burnt; ash; owner; return
+</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo ogni senso del termine</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@10388924[owner,proprietor] - (law) someone who owns (is legal possessor of) a business' - 1 di 3</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa '(law) someone who owns (is leg...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; is; of; who; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa '(law) someone who owns (is leg...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; is; of; who; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Noun@10389398[owner,possessor] - a person who owns something' - 2 di 3</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a person who owns something...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; who; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a person who owns something...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; who; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'a person who owns something...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; who; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'AdjectiveSatellite@1768724[own,ain] - belonging to or on behalf of a specified person (especially yourself); preceded by a possessive' - 3 di 3</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; by; of; on; or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; by; of; on; or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; by; of; on; or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; by; of; on; or; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; a; by; of; on; or; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Trovato senso migliore: '(law) someone who owns (is legal possessor of) a business'</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il termine 'returned' - 5 di 5</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Creato il contesto: house; burnt; ash; owner; return
+</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo ogni senso del termine</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2004874[return] - go or come back to place, condition, or activity where one has been before' - 1 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'been; has; or; or; to; where; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'been; has; or; or; to; where; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'been; has; or; or; to; where; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2310007[render,return] - give back' - 2 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give back...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give back...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@387310[revert,return,retrovert,regress,turn back] - go back to a previous state' - 3 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go back to a previous state...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go back to a previous state...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@959524[hark back,return,come back,recall] - go back to something earlier' - 4 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go back to something earlier...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'go back to something earlier...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2078294[return,take back,bring back] - bring back to the point of departure' - 5 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'bring back to the point of dep...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'of; the; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2357072[return] - return in kind' - 6 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'return in kind...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'in; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'return in kind...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'in; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'return in kind...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'in; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1433159[return] - make a return' - 7 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'make a return...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'make a return...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@816353[retort,come back,repay,return,riposte,rejoin] - answer back' - 8 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'answer back...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@548153[come back,return] - be restored' - 9 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be restored...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be restored...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2284951[refund,return,repay,give back] - pay back' - 10 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'pay back...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'pay back...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1062253[render,deliver,return] - pass down' - 11 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'pass down...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'pass down...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'pass down...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2401296[reelect,return] - elect again' - 12 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'elect again...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Nessuna stowords rimossa!</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2229550[fall,return,pass,devolve] - be inherited by' - 13 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be inherited by...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be inherited by...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be inherited by...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; by; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'be inherited by...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'be; by; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@2005617[return] - return to a previous position; in mathematics' - 14 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'return to a previous position;...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'return to a previous position;...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@1629000[render,yield,return,give,generate] - give or supply' - 15 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give or supply...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give or supply...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give or supply...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'give or supply...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'or; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Analizzo il senso 'Verb@879028[return] - submit (a report, etc.) to someone in authority' - 16 di 16</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'submit (a report, etc.) to som...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; to; '</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Pulisco la stringa 'submit (a report, etc.) to som...' tramite espressione regolare</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Rimuovo le stopwords 'a; in; to; '</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Overlap trovato per la signature del senso: 0</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Trovato senso migliore: 'go or come back to place, condition, or activity where one has been before'</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Termino la chiamata di LESK</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Senso migliore per la parola 'owner': (law) someone who owns (is legal possessor of) a business</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Senso migliore per la parola 'ashes': the residue that remains when something is burned</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Senso migliore per la parola 'returned': go or come back to place, condition, or activity where one has been before</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Senso migliore per la parola 'house': a dwelling that serves as living quarters for one or more families</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>Jul 18,2017 23:51</td>
+	<td>Senso migliore per la parola 'burnt': destroy by fire</td>
+</tr>
+</table></div>
+
+      <footer class="footer">
+        <p>© Matteo Madeddu - Dipartimento di Informatica 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<iframe id="rdbIndicator" width="100%" height="270" border="0" src="chrome-extension://oknpjjbmpnndlpmnhmekjpocelpnlfdi/indicator.html" style="display: none; border: 0; position: fixed; left: 0; top: 0; z-index: 2147483647"></iframe>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rocchio</title>
+
+    <!-- Bootstrap -->
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../lib/js/bootstrap.min.js"></script><body class=" ext-webkit ext-chrome ext-mac">
+
+    <div class="container">
+ <div class="jumbotron">
+        <h3>Esercitazione 3 - Radicioni Rocchio</h3>
+        <p class="lead">Questo file contiene il log dell'Esercitazione 3<br/><br/>I file di log di questo esercizio si trovano in:<br/>ROCCHIO_3_16.0_40.0_1_0.8_0.0_0.2<br/>Con il significato di: BABELNET_[numero_versione]_[beta_val]_[gamma_val]_[near_pos_mode_val]_[train]_[dev]_[test]</p>
+      </div>
+
+      <div class="row marketing">
+<h1>Giorno: lug 18, 2017 21:10</h1>
+<table class="table">
+      <thead>
+        <tr>
+          <th style="width: 15%;">Livello</th>
+          <th style="width: 20%;">Giorno e ora</th>
+          <th style="width: 65%;">Messaggio</th>
+     </tr>
+      </thead>
+      <tbody>	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Inizio il training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Carico un dump E RANDOMIZZO l'ordine dei documenti per training/developing/testing</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Inizio la costruzione dello space vector model</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Calcolo il vettore TF per i 200 documenti usati per il training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Calcolo il vettore IDF per i 0 termini (dimensioni) dello spazio</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Calcolo il centroide per le 0 classi individuate</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Inizio il testing per il calcolo dei NEAR POSITIVE (distanzio centroidi più vicini)</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Calcolo i NEAR POSITIVE facendo testing e guardando gli errori sui documenti di training</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Inizio il testing</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Fine test. Corretti su totali: 0/0</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 21:10</td>
+	<td>Viene considerata NEAR POSITIVE solo la classe con cui sono stati fatti più errori. 1 sola classe arbitraria se ci sono più classi con pari # errori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Ricalcolo i centroidi sfruttando i NEAR POSITIVE</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Fine del training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Testing sui testing documents</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Inizio il testing</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 21:10</td>
+	<td>Fine test. Corretti su totali: 0/0</td>
+</tr>
+</table></div>
+
+      <footer class="footer">
+        <p>© Matteo Madeddu - Dipartimento di Informatica 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<iframe id="rdbIndicator" width="100%" height="270" border="0" src="chrome-extension://oknpjjbmpnndlpmnhmekjpocelpnlfdi/indicator.html" style="display: none; border: 0; position: fixed; left: 0; top: 0; z-index: 2147483647"></iframe>
+</body>
+</html>

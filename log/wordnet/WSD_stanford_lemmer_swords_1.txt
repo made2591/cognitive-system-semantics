@@ -1,0 +1,398 @@
+18/07/2017 11:51:36.836 - [Fase        ] - Sentence in ingresso: 'The house was burnt to ashes while the owner returned.'
+18/07/2017 11:51:36.838 - [Task        ] - Pulisco la stringa 'The house was burnt to ashes w...' tramite espressione regolare
+18/07/2017 11:51:36.840 - [Task        ] - Rimuovo le stopwords 'the; the; to; was; while; '
+18/07/2017 11:51:36.840 - [Fase        ] - Chiamo LESK su tutti i termini della sentence (ancora da stemmatizzare): 'house burnt ashes owner returned'
+18/07/2017 11:51:36.843 - [Task        ] - Analizzo il termine 'house' - 1 di 5
+18/07/2017 11:51:36.843 - [Task        ] - Creo il contesto a partire dalla sentence
+18/07/2017 11:51:37.759 - [Task        ] - Creato il contesto: house; burnt; ash; owner; return
+
+18/07/2017 11:51:37.820 - [Task        ] - Analizzo ogni senso del termine
+18/07/2017 11:51:37.821 - [Azione      ] - Analizzo il senso 'Noun@3544360[house] - a dwelling that serves as living quarters for one or more families' - 1 di 14
+18/07/2017 11:51:37.821 - [Task        ] - Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare
+18/07/2017 11:51:37.822 - [Task        ] - Rimuovo le stopwords 'a; as; for; or; that; '
+18/07/2017 11:51:37.822 - [Task        ] - Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare
+18/07/2017 11:51:37.823 - [Task        ] - Rimuovo le stopwords 'a; as; for; or; that; '
+18/07/2017 11:51:37.823 - [Task        ] - Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare
+18/07/2017 11:51:37.824 - [Task        ] - Rimuovo le stopwords 'a; as; for; or; that; '
+18/07/2017 11:51:37.893 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:37.893 - [Azione      ] - Analizzo il senso 'Noun@8059870[firm,house,business firm] - the members of a business organization that owns or operates one or more establishments' - 2 di 14
+18/07/2017 11:51:37.893 - [Task        ] - Pulisco la stringa 'the members of a business orga...' tramite espressione regolare
+18/07/2017 11:51:37.894 - [Task        ] - Rimuovo le stopwords 'a; of; or; or; that; the; '
+18/07/2017 11:51:37.894 - [Task        ] - Pulisco la stringa 'the members of a business orga...' tramite espressione regolare
+18/07/2017 11:51:37.895 - [Task        ] - Rimuovo le stopwords 'a; of; or; or; that; the; '
+18/07/2017 11:51:37.946 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:37.947 - [Azione      ] - Analizzo il senso 'Noun@8224580[house] - the members of a religious community living together' - 3 di 14
+18/07/2017 11:51:37.947 - [Task        ] - Pulisco la stringa 'the members of a religious com...' tramite espressione regolare
+18/07/2017 11:51:37.948 - [Task        ] - Rimuovo le stopwords 'a; of; the; '
+18/07/2017 11:51:37.964 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:37.964 - [Azione      ] - Analizzo il senso 'Noun@8222966[house] - the audience gathered together in a theatre or cinema' - 4 di 14
+18/07/2017 11:51:37.965 - [Task        ] - Pulisco la stringa 'the audience gathered together...' tramite espressione regolare
+18/07/2017 11:51:37.965 - [Task        ] - Rimuovo le stopwords 'a; in; or; the; '
+18/07/2017 11:51:37.965 - [Task        ] - Pulisco la stringa 'the audience gathered together...' tramite espressione regolare
+18/07/2017 11:51:37.966 - [Task        ] - Rimuovo le stopwords 'a; in; or; the; '
+18/07/2017 11:51:37.966 - [Task        ] - Pulisco la stringa 'the audience gathered together...' tramite espressione regolare
+18/07/2017 11:51:37.966 - [Task        ] - Rimuovo le stopwords 'a; in; or; the; '
+18/07/2017 11:51:37.998 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:37.998 - [Azione      ] - Analizzo il senso 'Noun@8163025[house] - an official assembly having legislative powers' - 5 di 14
+18/07/2017 11:51:37.998 - [Task        ] - Pulisco la stringa 'an official assembly having le...' tramite espressione regolare
+18/07/2017 11:51:37.999 - [Task        ] - Rimuovo le stopwords 'an; '
+18/07/2017 11:51:37.999 - [Task        ] - Pulisco la stringa 'an official assembly having le...' tramite espressione regolare
+18/07/2017 11:51:37.999 - [Task        ] - Rimuovo le stopwords 'an; '
+18/07/2017 11:51:38.015 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.015 - [Azione      ] - Analizzo il senso 'Noun@7971449[house] - aristocratic family line' - 6 di 14
+18/07/2017 11:51:38.015 - [Task        ] - Pulisco la stringa 'aristocratic family line...' tramite espressione regolare
+18/07/2017 11:51:38.016 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.016 - [Task        ] - Pulisco la stringa 'aristocratic family line...' tramite espressione regolare
+18/07/2017 11:51:38.016 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.054 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.054 - [Azione      ] - Analizzo il senso 'Noun@432164[house] - play in which children take the roles of father or mother or children and pretend to interact like adults' - 7 di 14
+18/07/2017 11:51:38.054 - [Task        ] - Pulisco la stringa 'play in which children take th...' tramite espressione regolare
+18/07/2017 11:51:38.055 - [Task        ] - Rimuovo le stopwords 'and; in; like; of; or; or; the; to; which; '
+18/07/2017 11:51:38.055 - [Task        ] - Pulisco la stringa 'play in which children take th...' tramite espressione regolare
+18/07/2017 11:51:38.055 - [Task        ] - Rimuovo le stopwords 'and; in; like; of; or; or; the; to; which; '
+18/07/2017 11:51:38.089 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.089 - [Azione      ] - Analizzo il senso 'Noun@8685677[sign of the zodiac,star sign,sign,mansion,house,planetary house] - (astrology) one of 12 equal areas into which the zodiac is divided' - 8 di 14
+18/07/2017 11:51:38.090 - [Task        ] - Pulisco la stringa '(astrology) one of 12 equal ar...' tramite espressione regolare
+18/07/2017 11:51:38.090 - [Task        ] - Rimuovo le stopwords 'into; is; of; the; which; '
+18/07/2017 11:51:38.098 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.098 - [Azione      ] - Analizzo il senso 'Noun@8381296[house] - the management of a gambling house or casino' - 9 di 14
+18/07/2017 11:51:38.098 - [Task        ] - Pulisco la stringa 'the management of a gambling h...' tramite espressione regolare
+18/07/2017 11:51:38.099 - [Task        ] - Rimuovo le stopwords 'a; of; or; the; '
+18/07/2017 11:51:38.099 - [Task        ] - Pulisco la stringa 'the management of a gambling h...' tramite espressione regolare
+18/07/2017 11:51:38.099 - [Task        ] - Rimuovo le stopwords 'a; of; or; the; '
+18/07/2017 11:51:38.109 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.110 - [Azione      ] - Analizzo il senso 'Noun@8078020[family,household,house,home,menage] - a social unit living together' - 10 di 14
+18/07/2017 11:51:38.110 - [Task        ] - Pulisco la stringa 'a social unit living together...' tramite espressione regolare
+18/07/2017 11:51:38.110 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.110 - [Task        ] - Pulisco la stringa 'a social unit living together...' tramite espressione regolare
+18/07/2017 11:51:38.111 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.111 - [Task        ] - Pulisco la stringa 'a social unit living together...' tramite espressione regolare
+18/07/2017 11:51:38.111 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.111 - [Task        ] - Pulisco la stringa 'a social unit living together...' tramite espressione regolare
+18/07/2017 11:51:38.111 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.112 - [Task        ] - Pulisco la stringa 'a social unit living together...' tramite espressione regolare
+18/07/2017 11:51:38.112 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.149 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.149 - [Azione      ] - Analizzo il senso 'Noun@4417809[theater,theatre,house] - a building where theatrical performances or motion-picture shows can be presented' - 11 di 14
+18/07/2017 11:51:38.149 - [Task        ] - Pulisco la stringa 'a building where theatrical pe...' tramite espressione regolare
+18/07/2017 11:51:38.150 - [Task        ] - Rimuovo le stopwords 'a; be; can; or; where; '
+18/07/2017 11:51:38.150 - [Task        ] - Pulisco la stringa 'a building where theatrical pe...' tramite espressione regolare
+18/07/2017 11:51:38.150 - [Task        ] - Rimuovo le stopwords 'a; be; can; or; where; '
+18/07/2017 11:51:38.172 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.172 - [Azione      ] - Analizzo il senso 'Noun@3545150[house] - a building in which something is sheltered or located' - 12 di 14
+18/07/2017 11:51:38.172 - [Task        ] - Pulisco la stringa 'a building in which something ...' tramite espressione regolare
+18/07/2017 11:51:38.173 - [Task        ] - Rimuovo le stopwords 'a; in; is; or; which; '
+18/07/2017 11:51:38.173 - [Task        ] - Pulisco la stringa 'a building in which something ...' tramite espressione regolare
+18/07/2017 11:51:38.173 - [Task        ] - Rimuovo le stopwords 'a; in; is; or; which; '
+18/07/2017 11:51:38.182 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.182 - [Azione      ] - Analizzo il senso 'Verb@2701828[house] - contain or cover' - 13 di 14
+18/07/2017 11:51:38.182 - [Task        ] - Pulisco la stringa 'contain or cover...' tramite espressione regolare
+18/07/2017 11:51:38.182 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.182 - [Task        ] - Pulisco la stringa 'contain or cover...' tramite espressione regolare
+18/07/2017 11:51:38.183 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.188 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.188 - [Azione      ] - Analizzo il senso 'Verb@2459173[house,put up,domiciliate] - provide housing for' - 14 di 14
+18/07/2017 11:51:38.188 - [Task        ] - Pulisco la stringa 'provide housing for...' tramite espressione regolare
+18/07/2017 11:51:38.188 - [Task        ] - Rimuovo le stopwords 'for; '
+18/07/2017 11:51:38.188 - [Task        ] - Pulisco la stringa 'provide housing for...' tramite espressione regolare
+18/07/2017 11:51:38.189 - [Task        ] - Rimuovo le stopwords 'for; '
+18/07/2017 11:51:38.194 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.194 - [Task        ] - Trovato senso migliore: 'a dwelling that serves as living quarters for one or more families'
+18/07/2017 11:51:38.194 - [Task        ] - Analizzo il termine 'burnt' - 2 di 5
+18/07/2017 11:51:38.194 - [Task        ] - Creato il contesto: house; burnt; ash; owner; return
+
+18/07/2017 11:51:38.209 - [Task        ] - Analizzo ogni senso del termine
+18/07/2017 11:51:38.209 - [Azione      ] - Analizzo il senso 'Verb@378664[burn,fire,burn down] - destroy by fire' - 1 di 18
+18/07/2017 11:51:38.209 - [Task        ] - Pulisco la stringa 'destroy by fire...' tramite espressione regolare
+18/07/2017 11:51:38.209 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.210 - [Task        ] - Pulisco la stringa 'destroy by fire...' tramite espressione regolare
+18/07/2017 11:51:38.210 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.215 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.216 - [Azione      ] - Analizzo il senso 'Verb@2768874[burn,glow] - shine intensely, as if with heat' - 2 di 18
+18/07/2017 11:51:38.216 - [Task        ] - Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare
+18/07/2017 11:51:38.216 - [Task        ] - Rimuovo le stopwords 'as; if; with; '
+18/07/2017 11:51:38.216 - [Task        ] - Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare
+18/07/2017 11:51:38.217 - [Task        ] - Rimuovo le stopwords 'as; if; with; '
+18/07/2017 11:51:38.217 - [Task        ] - Pulisco la stringa 'shine intensely, as if with he...' tramite espressione regolare
+18/07/2017 11:51:38.217 - [Task        ] - Rimuovo le stopwords 'as; if; with; '
+18/07/2017 11:51:38.227 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.227 - [Azione      ] - Analizzo il senso 'Verb@377002[burn,combust] - undergo combustion' - 3 di 18
+18/07/2017 11:51:38.227 - [Task        ] - Pulisco la stringa 'undergo combustion...' tramite espressione regolare
+18/07/2017 11:51:38.227 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.228 - [Task        ] - Pulisco la stringa 'undergo combustion...' tramite espressione regolare
+18/07/2017 11:51:38.228 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.234 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.234 - [Azione      ] - Analizzo il senso 'Verb@2120451[bite,sting,burn] - cause a sharp or stinging pain or discomfort' - 4 di 18
+18/07/2017 11:51:38.234 - [Task        ] - Pulisco la stringa 'cause a sharp or stinging pain...' tramite espressione regolare
+18/07/2017 11:51:38.235 - [Task        ] - Rimuovo le stopwords 'a; or; or; '
+18/07/2017 11:51:38.235 - [Task        ] - Pulisco la stringa 'cause a sharp or stinging pain...' tramite espressione regolare
+18/07/2017 11:51:38.235 - [Task        ] - Rimuovo le stopwords 'a; or; or; '
+18/07/2017 11:51:38.245 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.246 - [Azione      ] - Analizzo il senso 'Verb@2762468[burn,combust] - cause to burn or combust' - 5 di 18
+18/07/2017 11:51:38.246 - [Task        ] - Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare
+18/07/2017 11:51:38.246 - [Task        ] - Rimuovo le stopwords 'or; to; '
+18/07/2017 11:51:38.246 - [Task        ] - Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare
+18/07/2017 11:51:38.246 - [Task        ] - Rimuovo le stopwords 'or; to; '
+18/07/2017 11:51:38.247 - [Task        ] - Pulisco la stringa 'cause to burn or combust...' tramite espressione regolare
+18/07/2017 11:51:38.247 - [Task        ] - Rimuovo le stopwords 'or; to; '
+18/07/2017 11:51:38.256 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.256 - [Azione      ] - Analizzo il senso 'Verb@1829292[burn] - feel strong emotion, especially anger or passion' - 6 di 18
+18/07/2017 11:51:38.256 - [Task        ] - Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare
+18/07/2017 11:51:38.257 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.257 - [Task        ] - Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare
+18/07/2017 11:51:38.257 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.257 - [Task        ] - Pulisco la stringa 'feel strong emotion, especiall...' tramite espressione regolare
+18/07/2017 11:51:38.257 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.300 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.301 - [Azione      ] - Analizzo il senso 'Verb@378042[burn,incinerate] - cause to undergo combustion' - 7 di 18
+18/07/2017 11:51:38.301 - [Task        ] - Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare
+18/07/2017 11:51:38.301 - [Task        ] - Rimuovo le stopwords 'to; '
+18/07/2017 11:51:38.301 - [Task        ] - Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare
+18/07/2017 11:51:38.301 - [Task        ] - Rimuovo le stopwords 'to; '
+18/07/2017 11:51:38.302 - [Task        ] - Pulisco la stringa 'cause to undergo combustion...' tramite espressione regolare
+18/07/2017 11:51:38.302 - [Task        ] - Rimuovo le stopwords 'to; '
+18/07/2017 11:51:38.316 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.316 - [Azione      ] - Analizzo il senso 'Verb@2485322[burn] - burn at the stake' - 8 di 18
+18/07/2017 11:51:38.316 - [Task        ] - Pulisco la stringa 'burn at the stake...' tramite espressione regolare
+18/07/2017 11:51:38.317 - [Task        ] - Rimuovo le stopwords 'at; the; '
+18/07/2017 11:51:38.317 - [Task        ] - Pulisco la stringa 'burn at the stake...' tramite espressione regolare
+18/07/2017 11:51:38.317 - [Task        ] - Rimuovo le stopwords 'at; the; '
+18/07/2017 11:51:38.322 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.322 - [Azione      ] - Analizzo il senso 'Verb@2268881[burn] - spend (significant amounts of money)' - 9 di 18
+18/07/2017 11:51:38.322 - [Task        ] - Pulisco la stringa 'spend (significant amounts of ...' tramite espressione regolare
+18/07/2017 11:51:38.323 - [Task        ] - Rimuovo le stopwords 'of; '
+18/07/2017 11:51:38.323 - [Task        ] - Pulisco la stringa 'spend (significant amounts of ...' tramite espressione regolare
+18/07/2017 11:51:38.324 - [Task        ] - Rimuovo le stopwords 'of; '
+18/07/2017 11:51:38.332 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.332 - [Azione      ] - Analizzo il senso 'Verb@2121048[burn] - feel hot or painful' - 10 di 18
+18/07/2017 11:51:38.332 - [Task        ] - Pulisco la stringa 'feel hot or painful...' tramite espressione regolare
+18/07/2017 11:51:38.332 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.332 - [Task        ] - Pulisco la stringa 'feel hot or painful...' tramite espressione regolare
+18/07/2017 11:51:38.332 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.341 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.341 - [Azione      ] - Analizzo il senso 'Verb@373766[cauterize,cauterise,burn] - burn, sear, or freeze (tissue) using a hot iron or electric current or a caustic agent' - 11 di 18
+18/07/2017 11:51:38.342 - [Task        ] - Pulisco la stringa 'burn, sear, or freeze (tissue)...' tramite espressione regolare
+18/07/2017 11:51:38.342 - [Task        ] - Rimuovo le stopwords 'a; a; or; or; or; '
+18/07/2017 11:51:38.342 - [Task        ] - Pulisco la stringa 'burn, sear, or freeze (tissue)...' tramite espressione regolare
+18/07/2017 11:51:38.343 - [Task        ] - Rimuovo le stopwords 'a; a; or; or; or; '
+18/07/2017 11:51:38.373 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.374 - [Azione      ] - Analizzo il senso 'Verb@104299[sunburn,burn] - get a sunburn by overexposure to the sun' - 12 di 18
+18/07/2017 11:51:38.374 - [Task        ] - Pulisco la stringa 'get a sunburn by overexposure ...' tramite espressione regolare
+18/07/2017 11:51:38.374 - [Task        ] - Rimuovo le stopwords 'a; by; get; the; to; '
+18/07/2017 11:51:38.378 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.379 - [Azione      ] - Analizzo il senso 'Verb@1756277[cut,burn] - create by duplicating data' - 13 di 18
+18/07/2017 11:51:38.379 - [Task        ] - Pulisco la stringa 'create by duplicating data...' tramite espressione regolare
+18/07/2017 11:51:38.379 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.379 - [Task        ] - Pulisco la stringa 'create by duplicating data...' tramite espressione regolare
+18/07/2017 11:51:38.379 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.380 - [Task        ] - Pulisco la stringa 'create by duplicating data...' tramite espressione regolare
+18/07/2017 11:51:38.380 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.391 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.391 - [Azione      ] - Analizzo il senso 'Verb@1205000[burn off,burn,burn up] - use up (energy)' - 14 di 18
+18/07/2017 11:51:38.392 - [Task        ] - Pulisco la stringa 'use up (energy)...' tramite espressione regolare
+18/07/2017 11:51:38.392 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.392 - [Task        ] - Pulisco la stringa 'use up (energy)...' tramite espressione regolare
+18/07/2017 11:51:38.392 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.397 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.397 - [Azione      ] - Analizzo il senso 'Verb@196364[burn] - burn with heat, fire, or radiation' - 15 di 18
+18/07/2017 11:51:38.397 - [Task        ] - Pulisco la stringa 'burn with heat, fire, or radia...' tramite espressione regolare
+18/07/2017 11:51:38.398 - [Task        ] - Rimuovo le stopwords 'or; with; '
+18/07/2017 11:51:38.398 - [Task        ] - Pulisco la stringa 'burn with heat, fire, or radia...' tramite espressione regolare
+18/07/2017 11:51:38.398 - [Task        ] - Rimuovo le stopwords 'or; with; '
+18/07/2017 11:51:38.404 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.404 - [Azione      ] - Analizzo il senso 'AdjectiveSatellite@617137[burned,burnt] - ruined by overcooking' - 16 di 18
+18/07/2017 11:51:38.404 - [Task        ] - Pulisco la stringa 'ruined by overcooking...' tramite espressione regolare
+18/07/2017 11:51:38.405 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.405 - [Task        ] - Pulisco la stringa 'ruined by overcooking...' tramite espressione regolare
+18/07/2017 11:51:38.405 - [Task        ] - Rimuovo le stopwords 'by; '
+18/07/2017 11:51:38.408 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.408 - [Azione      ] - Analizzo il senso 'AdjectiveSatellite@1954263[burned,burnt] - treated by heating to a high temperature but below the melting or fusing point' - 17 di 18
+18/07/2017 11:51:38.408 - [Task        ] - Pulisco la stringa 'treated by heating to a high t...' tramite espressione regolare
+18/07/2017 11:51:38.409 - [Task        ] - Rimuovo le stopwords 'a; but; by; or; the; to; '
+18/07/2017 11:51:38.409 - [Task        ] - Pulisco la stringa 'treated by heating to a high t...' tramite espressione regolare
+18/07/2017 11:51:38.409 - [Task        ] - Rimuovo le stopwords 'a; but; by; or; the; to; '
+18/07/2017 11:51:38.420 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.420 - [Azione      ] - Analizzo il senso 'AdjectiveSatellite@735336[burned,burnt,burned-over,burned-out,burnt-out] - destroyed or badly damaged by fire' - 18 di 18
+18/07/2017 11:51:38.421 - [Task        ] - Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare
+18/07/2017 11:51:38.421 - [Task        ] - Rimuovo le stopwords 'by; or; '
+18/07/2017 11:51:38.421 - [Task        ] - Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare
+18/07/2017 11:51:38.421 - [Task        ] - Rimuovo le stopwords 'by; or; '
+18/07/2017 11:51:38.421 - [Task        ] - Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare
+18/07/2017 11:51:38.421 - [Task        ] - Rimuovo le stopwords 'by; or; '
+18/07/2017 11:51:38.421 - [Task        ] - Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare
+18/07/2017 11:51:38.422 - [Task        ] - Rimuovo le stopwords 'by; or; '
+18/07/2017 11:51:38.422 - [Task        ] - Pulisco la stringa 'destroyed or badly damaged by ...' tramite espressione regolare
+18/07/2017 11:51:38.422 - [Task        ] - Rimuovo le stopwords 'by; or; '
+18/07/2017 11:51:38.436 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.436 - [Task        ] - Trovato senso migliore: 'destroy by fire'
+18/07/2017 11:51:38.436 - [Task        ] - Analizzo il termine 'ashes' - 3 di 5
+18/07/2017 11:51:38.436 - [Task        ] - Creato il contesto: house; burnt; ash; owner; return
+
+18/07/2017 11:51:38.442 - [Task        ] - Analizzo ogni senso del termine
+18/07/2017 11:51:38.443 - [Azione      ] - Analizzo il senso 'Noun@14769160[ash] - the residue that remains when something is burned' - 1 di 5
+18/07/2017 11:51:38.443 - [Task        ] - Pulisco la stringa 'the residue that remains when ...' tramite espressione regolare
+18/07/2017 11:51:38.443 - [Task        ] - Rimuovo le stopwords 'is; that; the; when; '
+18/07/2017 11:51:38.446 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.446 - [Azione      ] - Analizzo il senso 'Noun@12303462[ash,ash tree] - any of various deciduous pinnate-leaved ornamental or timber trees of the genus Fraxinus' - 2 di 5
+18/07/2017 11:51:38.446 - [Task        ] - Pulisco la stringa 'any of various deciduous pinna...' tramite espressione regolare
+18/07/2017 11:51:38.446 - [Task        ] - Rimuovo le stopwords 'any; of; of; or; the; '
+18/07/2017 11:51:38.453 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.453 - [Azione      ] - Analizzo il senso 'Noun@12303921[ash] - strong elastic wood of any of various ash trees; used for furniture and tool handles and sporting goods such as baseball bats' - 3 di 5
+18/07/2017 11:51:38.453 - [Task        ] - Pulisco la stringa 'strong elastic wood of any of ...' tramite espressione regolare
+18/07/2017 11:51:38.454 - [Task        ] - Rimuovo le stopwords 'and; and; any; as; for; of; of; '
+18/07/2017 11:51:38.479 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.479 - [Azione      ] - Analizzo il senso 'Noun@10825718[Ashe,Arthur Ashe,Arthur Robert Ashe] - United States tennis player who was the first Black to win United States and English singles championships (1943-1993)' - 4 di 5
+18/07/2017 11:51:38.479 - [Task        ] - Pulisco la stringa 'United States tennis player wh...' tramite espressione regolare
+18/07/2017 11:51:38.479 - [Task        ] - Rimuovo le stopwords 'and; the; to; was; who; '
+18/07/2017 11:51:38.501 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.501 - [Azione      ] - Analizzo il senso 'Verb@383437[ash] - convert into ashes' - 5 di 5
+18/07/2017 11:51:38.501 - [Task        ] - Pulisco la stringa 'convert into ashes...' tramite espressione regolare
+18/07/2017 11:51:38.501 - [Task        ] - Rimuovo le stopwords 'into; '
+18/07/2017 11:51:38.504 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.505 - [Task        ] - Trovato senso migliore: 'the residue that remains when something is burned'
+18/07/2017 11:51:38.505 - [Task        ] - Analizzo il termine 'owner' - 4 di 5
+18/07/2017 11:51:38.505 - [Task        ] - Creato il contesto: house; burnt; ash; owner; return
+
+18/07/2017 11:51:38.516 - [Task        ] - Analizzo ogni senso del termine
+18/07/2017 11:51:38.516 - [Azione      ] - Analizzo il senso 'Noun@10388924[owner,proprietor] - (law) someone who owns (is legal possessor of) a business' - 1 di 3
+18/07/2017 11:51:38.517 - [Task        ] - Pulisco la stringa '(law) someone who owns (is leg...' tramite espressione regolare
+18/07/2017 11:51:38.517 - [Task        ] - Rimuovo le stopwords 'a; is; of; who; '
+18/07/2017 11:51:38.517 - [Task        ] - Pulisco la stringa '(law) someone who owns (is leg...' tramite espressione regolare
+18/07/2017 11:51:38.517 - [Task        ] - Rimuovo le stopwords 'a; is; of; who; '
+18/07/2017 11:51:38.545 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.545 - [Azione      ] - Analizzo il senso 'Noun@10389398[owner,possessor] - a person who owns something' - 2 di 3
+18/07/2017 11:51:38.545 - [Task        ] - Pulisco la stringa 'a person who owns something...' tramite espressione regolare
+18/07/2017 11:51:38.545 - [Task        ] - Rimuovo le stopwords 'a; who; '
+18/07/2017 11:51:38.545 - [Task        ] - Pulisco la stringa 'a person who owns something...' tramite espressione regolare
+18/07/2017 11:51:38.546 - [Task        ] - Rimuovo le stopwords 'a; who; '
+18/07/2017 11:51:38.546 - [Task        ] - Pulisco la stringa 'a person who owns something...' tramite espressione regolare
+18/07/2017 11:51:38.546 - [Task        ] - Rimuovo le stopwords 'a; who; '
+18/07/2017 11:51:38.568 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.568 - [Azione      ] - Analizzo il senso 'AdjectiveSatellite@1768724[own,ain] - belonging to or on behalf of a specified person (especially yourself); preceded by a possessive' - 3 di 3
+18/07/2017 11:51:38.568 - [Task        ] - Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare
+18/07/2017 11:51:38.569 - [Task        ] - Rimuovo le stopwords 'a; a; by; of; on; or; to; '
+18/07/2017 11:51:38.569 - [Task        ] - Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare
+18/07/2017 11:51:38.569 - [Task        ] - Rimuovo le stopwords 'a; a; by; of; on; or; to; '
+18/07/2017 11:51:38.569 - [Task        ] - Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare
+18/07/2017 11:51:38.569 - [Task        ] - Rimuovo le stopwords 'a; a; by; of; on; or; to; '
+18/07/2017 11:51:38.569 - [Task        ] - Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare
+18/07/2017 11:51:38.570 - [Task        ] - Rimuovo le stopwords 'a; a; by; of; on; or; to; '
+18/07/2017 11:51:38.570 - [Task        ] - Pulisco la stringa 'belonging to or on behalf of a...' tramite espressione regolare
+18/07/2017 11:51:38.571 - [Task        ] - Rimuovo le stopwords 'a; a; by; of; on; or; to; '
+18/07/2017 11:51:38.642 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.642 - [Task        ] - Trovato senso migliore: '(law) someone who owns (is legal possessor of) a business'
+18/07/2017 11:51:38.642 - [Task        ] - Analizzo il termine 'returned' - 5 di 5
+18/07/2017 11:51:38.642 - [Task        ] - Creato il contesto: house; burnt; ash; owner; return
+
+18/07/2017 11:51:38.658 - [Task        ] - Analizzo ogni senso del termine
+18/07/2017 11:51:38.658 - [Azione      ] - Analizzo il senso 'Verb@2004874[return] - go or come back to place, condition, or activity where one has been before' - 1 di 16
+18/07/2017 11:51:38.658 - [Task        ] - Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare
+18/07/2017 11:51:38.658 - [Task        ] - Rimuovo le stopwords 'been; has; or; or; to; where; '
+18/07/2017 11:51:38.659 - [Task        ] - Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare
+18/07/2017 11:51:38.659 - [Task        ] - Rimuovo le stopwords 'been; has; or; or; to; where; '
+18/07/2017 11:51:38.659 - [Task        ] - Pulisco la stringa 'go or come back to place, cond...' tramite espressione regolare
+18/07/2017 11:51:38.659 - [Task        ] - Rimuovo le stopwords 'been; has; or; or; to; where; '
+18/07/2017 11:51:38.711 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.712 - [Azione      ] - Analizzo il senso 'Verb@2310007[render,return] - give back' - 2 di 16
+18/07/2017 11:51:38.712 - [Task        ] - Pulisco la stringa 'give back...' tramite espressione regolare
+18/07/2017 11:51:38.712 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.712 - [Task        ] - Pulisco la stringa 'give back...' tramite espressione regolare
+18/07/2017 11:51:38.713 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.715 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.715 - [Azione      ] - Analizzo il senso 'Verb@387310[revert,return,retrovert,regress,turn back] - go back to a previous state' - 3 di 16
+18/07/2017 11:51:38.716 - [Task        ] - Pulisco la stringa 'go back to a previous state...' tramite espressione regolare
+18/07/2017 11:51:38.716 - [Task        ] - Rimuovo le stopwords 'a; to; '
+18/07/2017 11:51:38.716 - [Task        ] - Pulisco la stringa 'go back to a previous state...' tramite espressione regolare
+18/07/2017 11:51:38.716 - [Task        ] - Rimuovo le stopwords 'a; to; '
+18/07/2017 11:51:38.726 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.726 - [Azione      ] - Analizzo il senso 'Verb@959524[hark back,return,come back,recall] - go back to something earlier' - 4 di 16
+18/07/2017 11:51:38.726 - [Task        ] - Pulisco la stringa 'go back to something earlier...' tramite espressione regolare
+18/07/2017 11:51:38.726 - [Task        ] - Rimuovo le stopwords 'to; '
+18/07/2017 11:51:38.726 - [Task        ] - Pulisco la stringa 'go back to something earlier...' tramite espressione regolare
+18/07/2017 11:51:38.726 - [Task        ] - Rimuovo le stopwords 'to; '
+18/07/2017 11:51:38.734 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.735 - [Azione      ] - Analizzo il senso 'Verb@2078294[return,take back,bring back] - bring back to the point of departure' - 5 di 16
+18/07/2017 11:51:38.735 - [Task        ] - Pulisco la stringa 'bring back to the point of dep...' tramite espressione regolare
+18/07/2017 11:51:38.735 - [Task        ] - Rimuovo le stopwords 'of; the; to; '
+18/07/2017 11:51:38.740 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.741 - [Azione      ] - Analizzo il senso 'Verb@2357072[return] - return in kind' - 6 di 16
+18/07/2017 11:51:38.741 - [Task        ] - Pulisco la stringa 'return in kind...' tramite espressione regolare
+18/07/2017 11:51:38.741 - [Task        ] - Rimuovo le stopwords 'in; '
+18/07/2017 11:51:38.741 - [Task        ] - Pulisco la stringa 'return in kind...' tramite espressione regolare
+18/07/2017 11:51:38.742 - [Task        ] - Rimuovo le stopwords 'in; '
+18/07/2017 11:51:38.742 - [Task        ] - Pulisco la stringa 'return in kind...' tramite espressione regolare
+18/07/2017 11:51:38.742 - [Task        ] - Rimuovo le stopwords 'in; '
+18/07/2017 11:51:38.747 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.748 - [Azione      ] - Analizzo il senso 'Verb@1433159[return] - make a return' - 7 di 16
+18/07/2017 11:51:38.748 - [Task        ] - Pulisco la stringa 'make a return...' tramite espressione regolare
+18/07/2017 11:51:38.748 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.748 - [Task        ] - Pulisco la stringa 'make a return...' tramite espressione regolare
+18/07/2017 11:51:38.748 - [Task        ] - Rimuovo le stopwords 'a; '
+18/07/2017 11:51:38.751 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.751 - [Azione      ] - Analizzo il senso 'Verb@816353[retort,come back,repay,return,riposte,rejoin] - answer back' - 8 di 16
+18/07/2017 11:51:38.751 - [Task        ] - Pulisco la stringa 'answer back...' tramite espressione regolare
+18/07/2017 11:51:38.752 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.757 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.757 - [Azione      ] - Analizzo il senso 'Verb@548153[come back,return] - be restored' - 9 di 16
+18/07/2017 11:51:38.757 - [Task        ] - Pulisco la stringa 'be restored...' tramite espressione regolare
+18/07/2017 11:51:38.758 - [Task        ] - Rimuovo le stopwords 'be; '
+18/07/2017 11:51:38.758 - [Task        ] - Pulisco la stringa 'be restored...' tramite espressione regolare
+18/07/2017 11:51:38.758 - [Task        ] - Rimuovo le stopwords 'be; '
+18/07/2017 11:51:38.760 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.760 - [Azione      ] - Analizzo il senso 'Verb@2284951[refund,return,repay,give back] - pay back' - 10 di 16
+18/07/2017 11:51:38.760 - [Task        ] - Pulisco la stringa 'pay back...' tramite espressione regolare
+18/07/2017 11:51:38.761 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.761 - [Task        ] - Pulisco la stringa 'pay back...' tramite espressione regolare
+18/07/2017 11:51:38.761 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.764 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.764 - [Azione      ] - Analizzo il senso 'Verb@1062253[render,deliver,return] - pass down' - 11 di 16
+18/07/2017 11:51:38.764 - [Task        ] - Pulisco la stringa 'pass down...' tramite espressione regolare
+18/07/2017 11:51:38.765 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.765 - [Task        ] - Pulisco la stringa 'pass down...' tramite espressione regolare
+18/07/2017 11:51:38.765 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.765 - [Task        ] - Pulisco la stringa 'pass down...' tramite espressione regolare
+18/07/2017 11:51:38.765 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.769 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.769 - [Azione      ] - Analizzo il senso 'Verb@2401296[reelect,return] - elect again' - 12 di 16
+18/07/2017 11:51:38.769 - [Task        ] - Pulisco la stringa 'elect again...' tramite espressione regolare
+18/07/2017 11:51:38.769 - [Task        ] - Nessuna stowords rimossa!
+18/07/2017 11:51:38.775 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.775 - [Azione      ] - Analizzo il senso 'Verb@2229550[fall,return,pass,devolve] - be inherited by' - 13 di 16
+18/07/2017 11:51:38.775 - [Task        ] - Pulisco la stringa 'be inherited by...' tramite espressione regolare
+18/07/2017 11:51:38.775 - [Task        ] - Rimuovo le stopwords 'be; by; '
+18/07/2017 11:51:38.775 - [Task        ] - Pulisco la stringa 'be inherited by...' tramite espressione regolare
+18/07/2017 11:51:38.776 - [Task        ] - Rimuovo le stopwords 'be; by; '
+18/07/2017 11:51:38.776 - [Task        ] - Pulisco la stringa 'be inherited by...' tramite espressione regolare
+18/07/2017 11:51:38.776 - [Task        ] - Rimuovo le stopwords 'be; by; '
+18/07/2017 11:51:38.776 - [Task        ] - Pulisco la stringa 'be inherited by...' tramite espressione regolare
+18/07/2017 11:51:38.776 - [Task        ] - Rimuovo le stopwords 'be; by; '
+18/07/2017 11:51:38.780 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.780 - [Azione      ] - Analizzo il senso 'Verb@2005617[return] - return to a previous position; in mathematics' - 14 di 16
+18/07/2017 11:51:38.780 - [Task        ] - Pulisco la stringa 'return to a previous position;...' tramite espressione regolare
+18/07/2017 11:51:38.780 - [Task        ] - Rimuovo le stopwords 'a; in; to; '
+18/07/2017 11:51:38.781 - [Task        ] - Pulisco la stringa 'return to a previous position;...' tramite espressione regolare
+18/07/2017 11:51:38.781 - [Task        ] - Rimuovo le stopwords 'a; in; to; '
+18/07/2017 11:51:38.790 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.791 - [Azione      ] - Analizzo il senso 'Verb@1629000[render,yield,return,give,generate] - give or supply' - 15 di 16
+18/07/2017 11:51:38.791 - [Task        ] - Pulisco la stringa 'give or supply...' tramite espressione regolare
+18/07/2017 11:51:38.791 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.792 - [Task        ] - Pulisco la stringa 'give or supply...' tramite espressione regolare
+18/07/2017 11:51:38.792 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.792 - [Task        ] - Pulisco la stringa 'give or supply...' tramite espressione regolare
+18/07/2017 11:51:38.792 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.792 - [Task        ] - Pulisco la stringa 'give or supply...' tramite espressione regolare
+18/07/2017 11:51:38.793 - [Task        ] - Rimuovo le stopwords 'or; '
+18/07/2017 11:51:38.799 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.799 - [Azione      ] - Analizzo il senso 'Verb@879028[return] - submit (a report, etc.) to someone in authority' - 16 di 16
+18/07/2017 11:51:38.799 - [Task        ] - Pulisco la stringa 'submit (a report, etc.) to som...' tramite espressione regolare
+18/07/2017 11:51:38.799 - [Task        ] - Rimuovo le stopwords 'a; in; to; '
+18/07/2017 11:51:38.799 - [Task        ] - Pulisco la stringa 'submit (a report, etc.) to som...' tramite espressione regolare
+18/07/2017 11:51:38.800 - [Task        ] - Rimuovo le stopwords 'a; in; to; '
+18/07/2017 11:51:38.807 - [Azione      ] - Overlap trovato per la signature del senso: 0
+18/07/2017 11:51:38.807 - [Task        ] - Trovato senso migliore: 'go or come back to place, condition, or activity where one has been before'
+18/07/2017 11:51:38.807 - [Fase        ] - Termino la chiamata di LESK
+18/07/2017 11:51:38.807 - [Fase        ] - Senso migliore per la parola 'owner': (law) someone who owns (is legal possessor of) a business
+18/07/2017 11:51:38.807 - [Fase        ] - Senso migliore per la parola 'ashes': the residue that remains when something is burned
+18/07/2017 11:51:38.807 - [Fase        ] - Senso migliore per la parola 'returned': go or come back to place, condition, or activity where one has been before
+18/07/2017 11:51:38.808 - [Fase        ] - Senso migliore per la parola 'house': a dwelling that serves as living quarters for one or more families
+18/07/2017 11:51:38.808 - [Fase        ] - Senso migliore per la parola 'burnt': destroy by fire

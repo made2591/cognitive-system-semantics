@@ -1,0 +1,959 @@
+18/07/2017 11:49:19.835 - [Fase        ] - Inizio il training
+18/07/2017 11:49:19.836 - [Task        ] - Carico un dump E RANDOMIZZO l'ordine dei documenti per training/developing/testing
+18/07/2017 11:49:20.833 - [Fase        ] - Inizio la costruzione dello space vector model
+18/07/2017 11:49:20.837 - [Task        ] - Numero di file presenti: 200
+18/07/2017 11:49:20.839 - [Azione      ] - Classe: 'cucina', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.840 - [Azione      ] - Classe: 'ambiente', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.840 - [Azione      ] - Classe: 'motori', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.840 - [Azione      ] - Classe: 'economia', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.841 - [Azione      ] - Classe: 'scie', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.841 - [Azione      ] - Classe: 'cinema', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.841 - [Azione      ] - Classe: 'sport', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.841 - [Azione      ] - Classe: 'spettacoli', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.842 - [Azione      ] - Classe: 'politica', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.842 - [Azione      ] - Classe: 'salute', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4
+18/07/2017 11:49:20.843 - [Azione      ] - Training al 0.0% (2 di 160)
+18/07/2017 11:49:20.843 - [Azione      ] - Training al 1.0% (4 di 160)
+18/07/2017 11:49:20.844 - [Azione      ] - Training al 2.0% (5 di 160)
+18/07/2017 11:49:20.844 - [Azione      ] - Training al 3.0% (7 di 160)
+18/07/2017 11:49:20.845 - [Azione      ] - Training al 4.0% (9 di 160)
+18/07/2017 11:49:20.845 - [Azione      ] - Training al 5.0% (10 di 160)
+18/07/2017 11:49:20.845 - [Azione      ] - Training al 6.0% (12 di 160)
+18/07/2017 11:49:20.846 - [Azione      ] - Training al 7.0% (13 di 160)
+18/07/2017 11:49:20.846 - [Azione      ] - Training al 8.0% (15 di 160)
+18/07/2017 11:49:20.847 - [Azione      ] - Training al 9.0% (17 di 160)
+18/07/2017 11:49:20.847 - [Azione      ] - Training al 10.0% (18 di 160)
+18/07/2017 11:49:20.848 - [Azione      ] - Training al 11.0% (20 di 160)
+18/07/2017 11:49:20.848 - [Azione      ] - Training al 12.0% (21 di 160)
+18/07/2017 11:49:20.849 - [Azione      ] - Training al 13.0% (23 di 160)
+18/07/2017 11:49:20.850 - [Azione      ] - Training al 14.0% (25 di 160)
+18/07/2017 11:49:20.850 - [Azione      ] - Training al 15.0% (26 di 160)
+18/07/2017 11:49:20.851 - [Azione      ] - Training al 16.0% (28 di 160)
+18/07/2017 11:49:20.852 - [Azione      ] - Training al 17.0% (29 di 160)
+18/07/2017 11:49:20.852 - [Azione      ] - Training al 18.0% (31 di 160)
+18/07/2017 11:49:20.853 - [Azione      ] - Training al 19.0% (33 di 160)
+18/07/2017 11:49:20.853 - [Azione      ] - Training al 20.0% (34 di 160)
+18/07/2017 11:49:20.853 - [Azione      ] - Training al 21.0% (36 di 160)
+18/07/2017 11:49:20.854 - [Azione      ] - Training al 22.0% (37 di 160)
+18/07/2017 11:49:20.854 - [Azione      ] - Training al 23.0% (39 di 160)
+18/07/2017 11:49:20.855 - [Azione      ] - Training al 24.0% (41 di 160)
+18/07/2017 11:49:20.855 - [Azione      ] - Training al 25.0% (42 di 160)
+18/07/2017 11:49:20.855 - [Azione      ] - Training al 26.0% (44 di 160)
+18/07/2017 11:49:20.855 - [Azione      ] - Training al 27.0% (45 di 160)
+18/07/2017 11:49:20.856 - [Azione      ] - Training al 28.0% (47 di 160)
+18/07/2017 11:49:20.856 - [Azione      ] - Training al 29.0% (49 di 160)
+18/07/2017 11:49:20.856 - [Azione      ] - Training al 30.0% (50 di 160)
+18/07/2017 11:49:20.857 - [Azione      ] - Training al 31.0% (52 di 160)
+18/07/2017 11:49:20.857 - [Azione      ] - Training al 32.0% (53 di 160)
+18/07/2017 11:49:20.857 - [Azione      ] - Training al 33.0% (55 di 160)
+18/07/2017 11:49:20.858 - [Azione      ] - Training al 34.0% (57 di 160)
+18/07/2017 11:49:20.858 - [Azione      ] - Training al 35.0% (58 di 160)
+18/07/2017 11:49:20.859 - [Azione      ] - Training al 36.0% (60 di 160)
+18/07/2017 11:49:20.859 - [Azione      ] - Training al 37.0% (61 di 160)
+18/07/2017 11:49:20.860 - [Azione      ] - Training al 38.0% (63 di 160)
+18/07/2017 11:49:20.861 - [Azione      ] - Training al 39.0% (65 di 160)
+18/07/2017 11:49:20.861 - [Azione      ] - Training al 40.0% (66 di 160)
+18/07/2017 11:49:20.861 - [Azione      ] - Training al 41.0% (68 di 160)
+18/07/2017 11:49:20.861 - [Azione      ] - Training al 42.0% (69 di 160)
+18/07/2017 11:49:20.862 - [Azione      ] - Training al 43.0% (71 di 160)
+18/07/2017 11:49:20.862 - [Azione      ] - Training al 44.0% (73 di 160)
+18/07/2017 11:49:20.862 - [Azione      ] - Training al 45.0% (74 di 160)
+18/07/2017 11:49:20.863 - [Azione      ] - Training al 46.0% (76 di 160)
+18/07/2017 11:49:20.863 - [Azione      ] - Training al 47.0% (77 di 160)
+18/07/2017 11:49:20.863 - [Azione      ] - Training al 48.0% (79 di 160)
+18/07/2017 11:49:20.864 - [Azione      ] - Training al 49.0% (81 di 160)
+18/07/2017 11:49:20.864 - [Azione      ] - Training al 50.0% (82 di 160)
+18/07/2017 11:49:20.865 - [Azione      ] - Training al 51.0% (84 di 160)
+18/07/2017 11:49:20.865 - [Azione      ] - Training al 52.0% (85 di 160)
+18/07/2017 11:49:20.866 - [Azione      ] - Training al 53.0% (87 di 160)
+18/07/2017 11:49:20.866 - [Azione      ] - Training al 54.0% (89 di 160)
+18/07/2017 11:49:20.867 - [Azione      ] - Training al 55.0% (90 di 160)
+18/07/2017 11:49:20.867 - [Azione      ] - Training al 56.0% (92 di 160)
+18/07/2017 11:49:20.867 - [Azione      ] - Training al 57.0% (93 di 160)
+18/07/2017 11:49:20.868 - [Azione      ] - Training al 58.0% (95 di 160)
+18/07/2017 11:49:20.868 - [Azione      ] - Training al 59.0% (97 di 160)
+18/07/2017 11:49:20.868 - [Azione      ] - Training al 60.0% (98 di 160)
+18/07/2017 11:49:20.869 - [Azione      ] - Training al 61.0% (100 di 160)
+18/07/2017 11:49:20.869 - [Azione      ] - Training al 62.0% (101 di 160)
+18/07/2017 11:49:20.870 - [Azione      ] - Training al 63.0% (103 di 160)
+18/07/2017 11:49:20.870 - [Azione      ] - Training al 64.0% (105 di 160)
+18/07/2017 11:49:20.870 - [Azione      ] - Training al 65.0% (106 di 160)
+18/07/2017 11:49:20.871 - [Azione      ] - Training al 66.0% (108 di 160)
+18/07/2017 11:49:20.871 - [Azione      ] - Training al 67.0% (109 di 160)
+18/07/2017 11:49:20.871 - [Azione      ] - Training al 68.0% (111 di 160)
+18/07/2017 11:49:20.872 - [Azione      ] - Training al 69.0% (113 di 160)
+18/07/2017 11:49:20.872 - [Azione      ] - Training al 70.0% (114 di 160)
+18/07/2017 11:49:20.872 - [Azione      ] - Training al 71.0% (116 di 160)
+18/07/2017 11:49:20.873 - [Azione      ] - Training al 72.0% (117 di 160)
+18/07/2017 11:49:20.873 - [Azione      ] - Training al 73.0% (119 di 160)
+18/07/2017 11:49:20.873 - [Azione      ] - Training al 74.0% (121 di 160)
+18/07/2017 11:49:20.873 - [Azione      ] - Training al 75.0% (122 di 160)
+18/07/2017 11:49:20.874 - [Azione      ] - Training al 76.0% (124 di 160)
+18/07/2017 11:49:20.874 - [Azione      ] - Training al 77.0% (125 di 160)
+18/07/2017 11:49:20.874 - [Azione      ] - Training al 78.0% (127 di 160)
+18/07/2017 11:49:20.874 - [Azione      ] - Training al 79.0% (129 di 160)
+18/07/2017 11:49:20.874 - [Azione      ] - Training al 80.0% (130 di 160)
+18/07/2017 11:49:20.875 - [Azione      ] - Training al 81.0% (132 di 160)
+18/07/2017 11:49:20.875 - [Azione      ] - Training al 82.0% (133 di 160)
+18/07/2017 11:49:20.875 - [Azione      ] - Training al 83.0% (135 di 160)
+18/07/2017 11:49:20.876 - [Azione      ] - Training al 84.0% (137 di 160)
+18/07/2017 11:49:20.876 - [Azione      ] - Training al 85.0% (138 di 160)
+18/07/2017 11:49:20.876 - [Azione      ] - Training al 86.0% (140 di 160)
+18/07/2017 11:49:20.876 - [Azione      ] - Training al 87.0% (141 di 160)
+18/07/2017 11:49:20.877 - [Azione      ] - Training al 88.0% (143 di 160)
+18/07/2017 11:49:20.877 - [Azione      ] - Training al 89.0% (145 di 160)
+18/07/2017 11:49:20.877 - [Azione      ] - Training al 90.0% (146 di 160)
+18/07/2017 11:49:20.877 - [Azione      ] - Training al 91.0% (148 di 160)
+18/07/2017 11:49:20.880 - [Azione      ] - Training al 92.0% (149 di 160)
+18/07/2017 11:49:20.880 - [Azione      ] - Training al 93.0% (151 di 160)
+18/07/2017 11:49:20.881 - [Azione      ] - Training al 94.0% (153 di 160)
+18/07/2017 11:49:20.881 - [Azione      ] - Training al 95.0% (154 di 160)
+18/07/2017 11:49:20.883 - [Azione      ] - Training al 96.0% (156 di 160)
+18/07/2017 11:49:20.883 - [Azione      ] - Training al 97.0% (157 di 160)
+18/07/2017 11:49:20.884 - [Azione      ] - Training al 98.0% (159 di 160)
+18/07/2017 11:49:20.884 - [Azione      ] - Training al 99.0% (161 di 160)
+18/07/2017 11:49:20.903 - [Task        ] - Inizializzo le dimensioni dello spazio: 12118
+18/07/2017 11:49:20.903 - [Task        ] - Inizializzo le classi dello spazio: 10
+18/07/2017 11:49:20.903 - [Task        ] - Calcolo il vettore TF per i 200 documenti usati per il training
+18/07/2017 11:49:20.922 - [Task        ] - Calcolo il vettore IDF per i 12118 termini (dimensioni) dello spazio
+18/07/2017 11:49:23.386 - [Task        ] - Calcolo il centroide per le 10 classi individuate
+18/07/2017 11:49:23.387 - [Azione      ] - Calcolo centroide per la classe 'ambiente' (1/10)
+18/07/2017 11:49:23.427 - [Azione      ] - Calcolo centroide per la classe 'cinema' (2/10)
+18/07/2017 11:49:23.465 - [Azione      ] - Calcolo centroide per la classe 'cucina' (3/10)
+18/07/2017 11:49:23.496 - [Azione      ] - Calcolo centroide per la classe 'economia' (4/10)
+18/07/2017 11:49:23.545 - [Azione      ] - Calcolo centroide per la classe 'motori' (5/10)
+18/07/2017 11:49:23.563 - [Azione      ] - Calcolo centroide per la classe 'politica' (6/10)
+18/07/2017 11:49:23.583 - [Azione      ] - Calcolo centroide per la classe 'salute' (7/10)
+18/07/2017 11:49:23.606 - [Azione      ] - Calcolo centroide per la classe 'scie' (8/10)
+18/07/2017 11:49:23.626 - [Azione      ] - Calcolo centroide per la classe 'spettacoli' (9/10)
+18/07/2017 11:49:23.644 - [Azione      ] - Calcolo centroide per la classe 'sport' (10/10)
+18/07/2017 11:49:23.663 - [Task        ] - Inizio il testing per il calcolo dei NEAR POSITIVE (distanzio centroidi più vicini)
+18/07/2017 11:49:23.663 - [Task        ] - Calcolo i NEAR POSITIVE facendo testing e guardando gli errori sui documenti di training
+18/07/2017 11:49:23.663 - [Fase        ] - Inizio il testing
+18/07/2017 11:49:23.664 - [Task        ] - Nome documento: 'cinema_20.txt' - (1 / 160)
+18/07/2017 11:49:23.664 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.674 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.707 - [Azione      ] - Documento di testing: cinema_20.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:23.707 - [Task        ] - Nome documento: 'ambiente_10.txt' - (2 / 160)
+18/07/2017 11:49:23.707 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.722 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.730 - [Azione      ] - Documento di testing: ambiente_10.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:23.730 - [Task        ] - Nome documento: 'sport_08.txt' - (3 / 160)
+18/07/2017 11:49:23.730 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.738 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.744 - [Azione      ] - Documento di testing: sport_08.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:23.744 - [Task        ] - Nome documento: 'politica_19.txt' - (4 / 160)
+18/07/2017 11:49:23.744 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.751 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.755 - [Azione      ] - Documento di testing: politica_19.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:23.755 - [Task        ] - Nome documento: 'motori_07.txt' - (5 / 160)
+18/07/2017 11:49:23.755 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.759 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.765 - [Azione      ] - Documento di testing: motori_07.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:23.765 - [Task        ] - Nome documento: 'salute_02.txt' - (6 / 160)
+18/07/2017 11:49:23.765 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.775 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.779 - [Azione      ] - Documento di testing: salute_02.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:23.779 - [Task        ] - Nome documento: 'scie_tecnologia_03.txt' - (7 / 160)
+18/07/2017 11:49:23.779 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.793 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.797 - [Azione      ] - Documento di testing: scie_tecnologia_03.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:23.797 - [Task        ] - Nome documento: 'sport_17.txt' - (8 / 160)
+18/07/2017 11:49:23.797 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.814 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.820 - [Azione      ] - Documento di testing: sport_17.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:23.820 - [Task        ] - Nome documento: 'scie_tecnologia_16.txt' - (9 / 160)
+18/07/2017 11:49:23.820 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.827 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.833 - [Azione      ] - Documento di testing: scie_tecnologia_16.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:23.833 - [Task        ] - Nome documento: 'spettacoli_14.txt' - (10 / 160)
+18/07/2017 11:49:23.834 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.838 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.844 - [Azione      ] - Documento di testing: spettacoli_14.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:23.844 - [Task        ] - Nome documento: 'cucina_05.txt' - (11 / 160)
+18/07/2017 11:49:23.844 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.857 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.863 - [Azione      ] - Documento di testing: cucina_05.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:23.864 - [Task        ] - Nome documento: 'motori_09.txt' - (12 / 160)
+18/07/2017 11:49:23.864 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.870 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.875 - [Azione      ] - Documento di testing: motori_09.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:23.875 - [Task        ] - Nome documento: 'motori_06.txt' - (13 / 160)
+18/07/2017 11:49:23.875 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.884 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.889 - [Azione      ] - Documento di testing: motori_06.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:23.889 - [Task        ] - Nome documento: 'spettacoli_05.txt' - (14 / 160)
+18/07/2017 11:49:23.889 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.899 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.906 - [Azione      ] - Documento di testing: spettacoli_05.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:23.907 - [Task        ] - Nome documento: 'sport_10.txt' - (15 / 160)
+18/07/2017 11:49:23.907 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.918 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.922 - [Azione      ] - Documento di testing: sport_10.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:23.922 - [Task        ] - Nome documento: 'cucina_20.txt' - (16 / 160)
+18/07/2017 11:49:23.922 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.926 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.930 - [Azione      ] - Documento di testing: cucina_20.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:23.930 - [Task        ] - Nome documento: 'spettacoli_12.txt' - (17 / 160)
+18/07/2017 11:49:23.930 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.933 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.938 - [Azione      ] - Documento di testing: spettacoli_12.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:23.938 - [Task        ] - Nome documento: 'motori_12.txt' - (18 / 160)
+18/07/2017 11:49:23.938 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.948 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.952 - [Azione      ] - Documento di testing: motori_12.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:23.952 - [Task        ] - Nome documento: 'politica_14.txt' - (19 / 160)
+18/07/2017 11:49:23.952 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.961 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.965 - [Azione      ] - Documento di testing: politica_14.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:23.966 - [Task        ] - Nome documento: 'cinema_12.txt' - (20 / 160)
+18/07/2017 11:49:23.966 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.979 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.983 - [Azione      ] - Documento di testing: cinema_12.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:23.983 - [Task        ] - Nome documento: 'motori_04.txt' - (21 / 160)
+18/07/2017 11:49:23.983 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.989 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:23.993 - [Azione      ] - Documento di testing: motori_04.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:23.993 - [Task        ] - Nome documento: 'motori_05.txt' - (22 / 160)
+18/07/2017 11:49:23.993 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:23.999 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.003 - [Azione      ] - Documento di testing: motori_05.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.003 - [Task        ] - Nome documento: 'spettacoli_10.txt' - (23 / 160)
+18/07/2017 11:49:24.003 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.015 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.040 - [Azione      ] - Documento di testing: spettacoli_10.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.040 - [Task        ] - Nome documento: 'scie_tecnologia_14.txt' - (24 / 160)
+18/07/2017 11:49:24.040 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.044 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.051 - [Azione      ] - Documento di testing: scie_tecnologia_14.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.051 - [Task        ] - Nome documento: 'economia_finanza_06.txt' - (25 / 160)
+18/07/2017 11:49:24.051 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.060 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.065 - [Azione      ] - Documento di testing: economia_finanza_06.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.065 - [Task        ] - Nome documento: 'ambiente_15.txt' - (26 / 160)
+18/07/2017 11:49:24.065 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.077 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.085 - [Azione      ] - Documento di testing: ambiente_15.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.085 - [Task        ] - Nome documento: 'economia_finanza_11.txt' - (27 / 160)
+18/07/2017 11:49:24.085 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.092 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.097 - [Azione      ] - Documento di testing: economia_finanza_11.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.097 - [Task        ] - Nome documento: 'salute_16.txt' - (28 / 160)
+18/07/2017 11:49:24.097 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.104 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.108 - [Azione      ] - Documento di testing: salute_16.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.108 - [Task        ] - Nome documento: 'salute_13.txt' - (29 / 160)
+18/07/2017 11:49:24.108 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.120 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.125 - [Azione      ] - Documento di testing: salute_13.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.125 - [Task        ] - Nome documento: 'ambiente_12.txt' - (30 / 160)
+18/07/2017 11:49:24.126 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.131 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.139 - [Azione      ] - Documento di testing: ambiente_12.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.139 - [Task        ] - Nome documento: 'cinema_15.txt' - (31 / 160)
+18/07/2017 11:49:24.139 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.145 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.149 - [Azione      ] - Documento di testing: cinema_15.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.150 - [Task        ] - Nome documento: 'spettacoli_01.txt' - (32 / 160)
+18/07/2017 11:49:24.150 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.155 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.159 - [Azione      ] - Documento di testing: spettacoli_01.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.159 - [Task        ] - Nome documento: 'spettacoli_16.txt' - (33 / 160)
+18/07/2017 11:49:24.159 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.163 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.167 - [Azione      ] - Documento di testing: spettacoli_16.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.167 - [Task        ] - Nome documento: 'salute_15.txt' - (34 / 160)
+18/07/2017 11:49:24.167 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.173 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.177 - [Azione      ] - Documento di testing: salute_15.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.177 - [Task        ] - Nome documento: 'scie_tecnologia_07.txt' - (35 / 160)
+18/07/2017 11:49:24.177 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.183 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.187 - [Azione      ] - Documento di testing: scie_tecnologia_07.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.187 - [Task        ] - Nome documento: 'sport_19.txt' - (36 / 160)
+18/07/2017 11:49:24.187 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.210 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.214 - [Azione      ] - Documento di testing: sport_19.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.215 - [Task        ] - Nome documento: 'motori_13.txt' - (37 / 160)
+18/07/2017 11:49:24.215 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.220 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.225 - [Azione      ] - Documento di testing: motori_13.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.225 - [Task        ] - Nome documento: 'economia_finanza_18.txt' - (38 / 160)
+18/07/2017 11:49:24.225 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.231 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.235 - [Azione      ] - Documento di testing: economia_finanza_18.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.235 - [Task        ] - Nome documento: 'spettacoli_02.txt' - (39 / 160)
+18/07/2017 11:49:24.235 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.243 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.248 - [Azione      ] - Documento di testing: spettacoli_02.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.248 - [Task        ] - Nome documento: 'sport_18.txt' - (40 / 160)
+18/07/2017 11:49:24.248 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.259 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.263 - [Azione      ] - Documento di testing: sport_18.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.263 - [Task        ] - Nome documento: 'cucina_01.txt' - (41 / 160)
+18/07/2017 11:49:24.263 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.271 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.276 - [Azione      ] - Documento di testing: cucina_01.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.276 - [Task        ] - Nome documento: 'sport_01.txt' - (42 / 160)
+18/07/2017 11:49:24.276 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.284 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.293 - [Azione      ] - Documento di testing: sport_01.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.293 - [Task        ] - Nome documento: 'cucina_08.txt' - (43 / 160)
+18/07/2017 11:49:24.293 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.304 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.308 - [Azione      ] - Documento di testing: cucina_08.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.308 - [Task        ] - Nome documento: 'ambiente_06.txt' - (44 / 160)
+18/07/2017 11:49:24.308 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.317 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.322 - [Azione      ] - Documento di testing: ambiente_06.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.322 - [Task        ] - Nome documento: 'motori_17.txt' - (45 / 160)
+18/07/2017 11:49:24.322 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.329 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.333 - [Azione      ] - Documento di testing: motori_17.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.333 - [Task        ] - Nome documento: 'scie_tecnologia_12.txt' - (46 / 160)
+18/07/2017 11:49:24.333 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.343 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.348 - [Azione      ] - Documento di testing: scie_tecnologia_12.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.348 - [Task        ] - Nome documento: 'scie_tecnologia_10.txt' - (47 / 160)
+18/07/2017 11:49:24.349 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.356 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.361 - [Azione      ] - Documento di testing: scie_tecnologia_10.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.361 - [Task        ] - Nome documento: 'salute_14.txt' - (48 / 160)
+18/07/2017 11:49:24.361 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.370 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.374 - [Azione      ] - Documento di testing: salute_14.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.374 - [Task        ] - Nome documento: 'cinema_11.txt' - (49 / 160)
+18/07/2017 11:49:24.374 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.377 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.381 - [Azione      ] - Documento di testing: cinema_11.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.381 - [Task        ] - Nome documento: 'politica_06.txt' - (50 / 160)
+18/07/2017 11:49:24.381 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.385 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.389 - [Azione      ] - Documento di testing: politica_06.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:24.389 - [Task        ] - Nome documento: 'sport_02.txt' - (51 / 160)
+18/07/2017 11:49:24.389 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.394 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.398 - [Azione      ] - Documento di testing: sport_02.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.398 - [Task        ] - Nome documento: 'cucina_18.txt' - (52 / 160)
+18/07/2017 11:49:24.398 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.404 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.407 - [Azione      ] - Documento di testing: cucina_18.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.408 - [Task        ] - Nome documento: 'economia_finanza_17.txt' - (53 / 160)
+18/07/2017 11:49:24.408 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.414 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.418 - [Azione      ] - Documento di testing: economia_finanza_17.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.418 - [Task        ] - Nome documento: 'politica_03.txt' - (54 / 160)
+18/07/2017 11:49:24.418 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.428 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.432 - [Azione      ] - Documento di testing: politica_03.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:24.432 - [Task        ] - Nome documento: 'ambiente_04.txt' - (55 / 160)
+18/07/2017 11:49:24.432 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.436 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.440 - [Azione      ] - Documento di testing: ambiente_04.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.440 - [Task        ] - Nome documento: 'sport_13.txt' - (56 / 160)
+18/07/2017 11:49:24.440 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.447 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.451 - [Azione      ] - Documento di testing: sport_13.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.451 - [Task        ] - Nome documento: 'scie_tecnologia_13.txt' - (57 / 160)
+18/07/2017 11:49:24.451 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.461 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.466 - [Azione      ] - Documento di testing: scie_tecnologia_13.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.467 - [Task        ] - Nome documento: 'scie_tecnologia_20.txt' - (58 / 160)
+18/07/2017 11:49:24.467 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.474 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.478 - [Azione      ] - Documento di testing: scie_tecnologia_20.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.478 - [Task        ] - Nome documento: 'motori_16.txt' - (59 / 160)
+18/07/2017 11:49:24.478 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.489 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.505 - [Azione      ] - Documento di testing: motori_16.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.505 - [Task        ] - Nome documento: 'motori_03.txt' - (60 / 160)
+18/07/2017 11:49:24.506 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.513 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.520 - [Azione      ] - Documento di testing: motori_03.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.521 - [Task        ] - Nome documento: 'politica_08.txt' - (61 / 160)
+18/07/2017 11:49:24.521 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.540 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.545 - [Azione      ] - Documento di testing: politica_08.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:24.545 - [Task        ] - Nome documento: 'motori_10.txt' - (62 / 160)
+18/07/2017 11:49:24.545 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.558 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.563 - [Azione      ] - Documento di testing: motori_10.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.563 - [Task        ] - Nome documento: 'scie_tecnologia_11.txt' - (63 / 160)
+18/07/2017 11:49:24.563 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.577 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.581 - [Azione      ] - Documento di testing: scie_tecnologia_11.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.581 - [Task        ] - Nome documento: 'scie_tecnologia_04.txt' - (64 / 160)
+18/07/2017 11:49:24.581 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.587 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.591 - [Azione      ] - Documento di testing: scie_tecnologia_04.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.591 - [Task        ] - Nome documento: 'economia_finanza_08.txt' - (65 / 160)
+18/07/2017 11:49:24.591 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.596 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.600 - [Azione      ] - Documento di testing: economia_finanza_08.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.600 - [Task        ] - Nome documento: 'politica_04.txt' - (66 / 160)
+18/07/2017 11:49:24.600 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.609 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.613 - [Azione      ] - Documento di testing: politica_04.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:24.613 - [Task        ] - Nome documento: 'spettacoli_03.txt' - (67 / 160)
+18/07/2017 11:49:24.613 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.632 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.636 - [Azione      ] - Documento di testing: spettacoli_03.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.636 - [Task        ] - Nome documento: 'ambiente_14.txt' - (68 / 160)
+18/07/2017 11:49:24.636 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.641 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.645 - [Azione      ] - Documento di testing: ambiente_14.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.645 - [Task        ] - Nome documento: 'ambiente_02.txt' - (69 / 160)
+18/07/2017 11:49:24.645 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.650 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.655 - [Azione      ] - Documento di testing: ambiente_02.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.655 - [Task        ] - Nome documento: 'spettacoli_19.txt' - (70 / 160)
+18/07/2017 11:49:24.655 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.665 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.671 - [Azione      ] - Documento di testing: spettacoli_19.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.671 - [Task        ] - Nome documento: 'cucina_04.txt' - (71 / 160)
+18/07/2017 11:49:24.671 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.682 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.688 - [Azione      ] - Documento di testing: cucina_04.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.688 - [Task        ] - Nome documento: 'politica_05.txt' - (72 / 160)
+18/07/2017 11:49:24.688 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.698 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.702 - [Azione      ] - Documento di testing: politica_05.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:24.702 - [Task        ] - Nome documento: 'spettacoli_08.txt' - (73 / 160)
+18/07/2017 11:49:24.702 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.714 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.720 - [Azione      ] - Documento di testing: spettacoli_08.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:24.721 - [Task        ] - Nome documento: 'salute_09.txt' - (74 / 160)
+18/07/2017 11:49:24.721 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.727 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.731 - [Azione      ] - Documento di testing: salute_09.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.731 - [Task        ] - Nome documento: 'economia_finanza_12.txt' - (75 / 160)
+18/07/2017 11:49:24.732 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.742 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.746 - [Azione      ] - Documento di testing: economia_finanza_12.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.747 - [Task        ] - Nome documento: 'sport_03.txt' - (76 / 160)
+18/07/2017 11:49:24.747 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.754 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.759 - [Azione      ] - Documento di testing: sport_03.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.759 - [Task        ] - Nome documento: 'ambiente_11.txt' - (77 / 160)
+18/07/2017 11:49:24.759 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.763 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.769 - [Azione      ] - Documento di testing: ambiente_11.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.769 - [Task        ] - Nome documento: 'cinema_08.txt' - (78 / 160)
+18/07/2017 11:49:24.769 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.777 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.781 - [Azione      ] - Documento di testing: cinema_08.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.781 - [Task        ] - Nome documento: 'cucina_10.txt' - (79 / 160)
+18/07/2017 11:49:24.781 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.795 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.799 - [Azione      ] - Documento di testing: cucina_10.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.799 - [Task        ] - Nome documento: 'ambiente_18.txt' - (80 / 160)
+18/07/2017 11:49:24.799 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.805 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.809 - [Azione      ] - Documento di testing: ambiente_18.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.809 - [Task        ] - Nome documento: 'economia_finanza_14.txt' - (81 / 160)
+18/07/2017 11:49:24.809 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.815 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.818 - [Azione      ] - Documento di testing: economia_finanza_14.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.819 - [Task        ] - Nome documento: 'cinema_02.txt' - (82 / 160)
+18/07/2017 11:49:24.819 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.832 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.835 - [Azione      ] - Documento di testing: cinema_02.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.836 - [Task        ] - Nome documento: 'economia_finanza_19.txt' - (83 / 160)
+18/07/2017 11:49:24.836 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.842 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.846 - [Azione      ] - Documento di testing: economia_finanza_19.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:24.846 - [Task        ] - Nome documento: 'scie_tecnologia_02.txt' - (84 / 160)
+18/07/2017 11:49:24.846 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.859 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.863 - [Azione      ] - Documento di testing: scie_tecnologia_02.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:24.863 - [Task        ] - Nome documento: 'sport_09.txt' - (85 / 160)
+18/07/2017 11:49:24.863 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.870 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.874 - [Azione      ] - Documento di testing: sport_09.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.875 - [Task        ] - Nome documento: 'cinema_05.txt' - (86 / 160)
+18/07/2017 11:49:24.875 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.884 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.891 - [Azione      ] - Documento di testing: cinema_05.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.892 - [Task        ] - Nome documento: 'cinema_16.txt' - (87 / 160)
+18/07/2017 11:49:24.892 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.896 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.901 - [Azione      ] - Documento di testing: cinema_16.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:24.901 - [Task        ] - Nome documento: 'ambiente_03.txt' - (88 / 160)
+18/07/2017 11:49:24.901 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.908 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.915 - [Azione      ] - Documento di testing: ambiente_03.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:24.915 - [Task        ] - Nome documento: 'salute_18.txt' - (89 / 160)
+18/07/2017 11:49:24.915 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.924 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.928 - [Azione      ] - Documento di testing: salute_18.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:24.928 - [Task        ] - Nome documento: 'cucina_14.txt' - (90 / 160)
+18/07/2017 11:49:24.928 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.934 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.938 - [Azione      ] - Documento di testing: cucina_14.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.938 - [Task        ] - Nome documento: 'cucina_13.txt' - (91 / 160)
+18/07/2017 11:49:24.938 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.941 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.946 - [Azione      ] - Documento di testing: cucina_13.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:24.946 - [Task        ] - Nome documento: 'sport_12.txt' - (92 / 160)
+18/07/2017 11:49:24.946 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.955 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.960 - [Azione      ] - Documento di testing: sport_12.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:24.960 - [Task        ] - Nome documento: 'motori_18.txt' - (93 / 160)
+18/07/2017 11:49:24.960 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.964 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.972 - [Azione      ] - Documento di testing: motori_18.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.972 - [Task        ] - Nome documento: 'motori_01.txt' - (94 / 160)
+18/07/2017 11:49:24.972 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:24.979 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:24.985 - [Azione      ] - Documento di testing: motori_01.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:24.986 - [Task        ] - Nome documento: 'economia_finanza_15.txt' - (95 / 160)
+18/07/2017 11:49:24.986 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.003 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.007 - [Azione      ] - Documento di testing: economia_finanza_15.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.007 - [Task        ] - Nome documento: 'sport_14.txt' - (96 / 160)
+18/07/2017 11:49:25.007 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.013 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.017 - [Azione      ] - Documento di testing: sport_14.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.017 - [Task        ] - Nome documento: 'cucina_11.txt' - (97 / 160)
+18/07/2017 11:49:25.017 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.026 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.029 - [Azione      ] - Documento di testing: cucina_11.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.030 - [Task        ] - Nome documento: 'ambiente_16.txt' - (98 / 160)
+18/07/2017 11:49:25.030 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.042 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.046 - [Azione      ] - Documento di testing: ambiente_16.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.046 - [Task        ] - Nome documento: 'spettacoli_17.txt' - (99 / 160)
+18/07/2017 11:49:25.046 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.053 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.058 - [Azione      ] - Documento di testing: spettacoli_17.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.058 - [Task        ] - Nome documento: 'politica_07.txt' - (100 / 160)
+18/07/2017 11:49:25.058 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.083 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.089 - [Azione      ] - Documento di testing: politica_07.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.089 - [Task        ] - Nome documento: 'scie_tecnologia_19.txt' - (101 / 160)
+18/07/2017 11:49:25.089 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.097 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.104 - [Azione      ] - Documento di testing: scie_tecnologia_19.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.104 - [Task        ] - Nome documento: 'cucina_16.txt' - (102 / 160)
+18/07/2017 11:49:25.104 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.109 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.113 - [Azione      ] - Documento di testing: cucina_16.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.113 - [Task        ] - Nome documento: 'cinema_06.txt' - (103 / 160)
+18/07/2017 11:49:25.113 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.121 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.127 - [Azione      ] - Documento di testing: cinema_06.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.127 - [Task        ] - Nome documento: 'spettacoli_06.txt' - (104 / 160)
+18/07/2017 11:49:25.127 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.140 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.145 - [Azione      ] - Documento di testing: spettacoli_06.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.145 - [Task        ] - Nome documento: 'salute_04.txt' - (105 / 160)
+18/07/2017 11:49:25.145 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.150 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.157 - [Azione      ] - Documento di testing: salute_04.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.157 - [Task        ] - Nome documento: 'cinema_10.txt' - (106 / 160)
+18/07/2017 11:49:25.157 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.165 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.172 - [Azione      ] - Documento di testing: cinema_10.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.172 - [Task        ] - Nome documento: 'ambiente_05.txt' - (107 / 160)
+18/07/2017 11:49:25.172 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.178 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.184 - [Azione      ] - Documento di testing: ambiente_05.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.184 - [Task        ] - Nome documento: 'cucina_07.txt' - (108 / 160)
+18/07/2017 11:49:25.184 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.190 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.194 - [Azione      ] - Documento di testing: cucina_07.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.194 - [Task        ] - Nome documento: 'sport_05.txt' - (109 / 160)
+18/07/2017 11:49:25.194 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.200 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.203 - [Azione      ] - Documento di testing: sport_05.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.203 - [Task        ] - Nome documento: 'sport_20.txt' - (110 / 160)
+18/07/2017 11:49:25.203 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.210 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.213 - [Azione      ] - Documento di testing: sport_20.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.213 - [Task        ] - Nome documento: 'ambiente_19.txt' - (111 / 160)
+18/07/2017 11:49:25.213 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.221 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.225 - [Azione      ] - Documento di testing: ambiente_19.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.225 - [Task        ] - Nome documento: 'spettacoli_18.txt' - (112 / 160)
+18/07/2017 11:49:25.225 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.229 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.233 - [Azione      ] - Documento di testing: spettacoli_18.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.233 - [Task        ] - Nome documento: 'cinema_18.txt' - (113 / 160)
+18/07/2017 11:49:25.233 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.240 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.244 - [Azione      ] - Documento di testing: cinema_18.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.244 - [Task        ] - Nome documento: 'economia_finanza_04.txt' - (114 / 160)
+18/07/2017 11:49:25.244 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.250 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.254 - [Azione      ] - Documento di testing: economia_finanza_04.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.254 - [Task        ] - Nome documento: 'sport_11.txt' - (115 / 160)
+18/07/2017 11:49:25.254 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.261 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.264 - [Azione      ] - Documento di testing: sport_11.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.264 - [Task        ] - Nome documento: 'cucina_17.txt' - (116 / 160)
+18/07/2017 11:49:25.264 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.270 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.274 - [Azione      ] - Documento di testing: cucina_17.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.274 - [Task        ] - Nome documento: 'sport_04.txt' - (117 / 160)
+18/07/2017 11:49:25.274 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.280 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.284 - [Azione      ] - Documento di testing: sport_04.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.285 - [Task        ] - Nome documento: 'economia_finanza_02.txt' - (118 / 160)
+18/07/2017 11:49:25.285 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.288 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.292 - [Azione      ] - Documento di testing: economia_finanza_02.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.292 - [Task        ] - Nome documento: 'scie_tecnologia_06.txt' - (119 / 160)
+18/07/2017 11:49:25.292 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.301 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.305 - [Azione      ] - Documento di testing: scie_tecnologia_06.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.305 - [Task        ] - Nome documento: 'cinema_01.txt' - (120 / 160)
+18/07/2017 11:49:25.305 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.314 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.325 - [Azione      ] - Documento di testing: cinema_01.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.325 - [Task        ] - Nome documento: 'salute_10.txt' - (121 / 160)
+18/07/2017 11:49:25.325 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.331 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.338 - [Azione      ] - Documento di testing: salute_10.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.338 - [Task        ] - Nome documento: 'motori_19.txt' - (122 / 160)
+18/07/2017 11:49:25.338 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.344 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.349 - [Azione      ] - Documento di testing: motori_19.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:25.349 - [Task        ] - Nome documento: 'economia_finanza_13.txt' - (123 / 160)
+18/07/2017 11:49:25.349 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.356 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.362 - [Azione      ] - Documento di testing: economia_finanza_13.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.362 - [Task        ] - Nome documento: 'economia_finanza_01.txt' - (124 / 160)
+18/07/2017 11:49:25.362 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.365 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.373 - [Azione      ] - Documento di testing: economia_finanza_01.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.373 - [Task        ] - Nome documento: 'politica_02.txt' - (125 / 160)
+18/07/2017 11:49:25.373 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.380 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.388 - [Azione      ] - Documento di testing: politica_02.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.388 - [Task        ] - Nome documento: 'ambiente_17.txt' - (126 / 160)
+18/07/2017 11:49:25.388 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.393 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.397 - [Azione      ] - Documento di testing: ambiente_17.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.397 - [Task        ] - Nome documento: 'cinema_07.txt' - (127 / 160)
+18/07/2017 11:49:25.397 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.404 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.408 - [Azione      ] - Documento di testing: cinema_07.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.408 - [Task        ] - Nome documento: 'politica_10.txt' - (128 / 160)
+18/07/2017 11:49:25.408 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.414 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.418 - [Azione      ] - Documento di testing: politica_10.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.418 - [Task        ] - Nome documento: 'spettacoli_13.txt' - (129 / 160)
+18/07/2017 11:49:25.418 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.421 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.425 - [Azione      ] - Documento di testing: spettacoli_13.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.425 - [Task        ] - Nome documento: 'motori_11.txt' - (130 / 160)
+18/07/2017 11:49:25.425 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.431 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.435 - [Azione      ] - Documento di testing: motori_11.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:25.435 - [Task        ] - Nome documento: 'politica_13.txt' - (131 / 160)
+18/07/2017 11:49:25.435 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.441 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.445 - [Azione      ] - Documento di testing: politica_13.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.445 - [Task        ] - Nome documento: 'salute_20.txt' - (132 / 160)
+18/07/2017 11:49:25.445 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.450 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.455 - [Azione      ] - Documento di testing: salute_20.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.455 - [Task        ] - Nome documento: 'cucina_02.txt' - (133 / 160)
+18/07/2017 11:49:25.455 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.461 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.465 - [Azione      ] - Documento di testing: cucina_02.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.465 - [Task        ] - Nome documento: 'cinema_04.txt' - (134 / 160)
+18/07/2017 11:49:25.465 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.472 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.476 - [Azione      ] - Documento di testing: cinema_04.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.476 - [Task        ] - Nome documento: 'economia_finanza_09.txt' - (135 / 160)
+18/07/2017 11:49:25.476 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.482 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.486 - [Azione      ] - Documento di testing: economia_finanza_09.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.486 - [Task        ] - Nome documento: 'ambiente_08.txt' - (136 / 160)
+18/07/2017 11:49:25.486 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.494 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.498 - [Azione      ] - Documento di testing: ambiente_08.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.498 - [Task        ] - Nome documento: 'politica_09.txt' - (137 / 160)
+18/07/2017 11:49:25.499 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.510 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.517 - [Azione      ] - Documento di testing: politica_09.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.517 - [Task        ] - Nome documento: 'spettacoli_20.txt' - (138 / 160)
+18/07/2017 11:49:25.517 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.527 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.532 - [Azione      ] - Documento di testing: spettacoli_20.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.532 - [Task        ] - Nome documento: 'cinema_14.txt' - (139 / 160)
+18/07/2017 11:49:25.532 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.544 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.548 - [Azione      ] - Documento di testing: cinema_14.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.549 - [Task        ] - Nome documento: 'ambiente_07.txt' - (140 / 160)
+18/07/2017 11:49:25.549 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.557 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.563 - [Azione      ] - Documento di testing: ambiente_07.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:25.563 - [Task        ] - Nome documento: 'cucina_09.txt' - (141 / 160)
+18/07/2017 11:49:25.563 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.572 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.576 - [Azione      ] - Documento di testing: cucina_09.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.576 - [Task        ] - Nome documento: 'scie_tecnologia_18.txt' - (142 / 160)
+18/07/2017 11:49:25.576 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.588 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.593 - [Azione      ] - Documento di testing: scie_tecnologia_18.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.593 - [Task        ] - Nome documento: 'motori_20.txt' - (143 / 160)
+18/07/2017 11:49:25.593 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.599 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.605 - [Azione      ] - Documento di testing: motori_20.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:25.605 - [Task        ] - Nome documento: 'politica_17.txt' - (144 / 160)
+18/07/2017 11:49:25.605 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.610 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.614 - [Azione      ] - Documento di testing: politica_17.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.614 - [Task        ] - Nome documento: 'salute_11.txt' - (145 / 160)
+18/07/2017 11:49:25.614 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.619 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.624 - [Azione      ] - Documento di testing: salute_11.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.624 - [Task        ] - Nome documento: 'politica_18.txt' - (146 / 160)
+18/07/2017 11:49:25.624 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.629 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.633 - [Azione      ] - Documento di testing: politica_18.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.633 - [Task        ] - Nome documento: 'spettacoli_09.txt' - (147 / 160)
+18/07/2017 11:49:25.633 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.640 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.644 - [Azione      ] - Documento di testing: spettacoli_09.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.644 - [Task        ] - Nome documento: 'salute_01.txt' - (148 / 160)
+18/07/2017 11:49:25.644 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.651 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.655 - [Azione      ] - Documento di testing: salute_01.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.655 - [Task        ] - Nome documento: 'scie_tecnologia_09.txt' - (149 / 160)
+18/07/2017 11:49:25.655 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.660 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.664 - [Azione      ] - Documento di testing: scie_tecnologia_09.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.664 - [Task        ] - Nome documento: 'salute_17.txt' - (150 / 160)
+18/07/2017 11:49:25.664 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.670 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.677 - [Azione      ] - Documento di testing: salute_17.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.677 - [Task        ] - Nome documento: 'salute_19.txt' - (151 / 160)
+18/07/2017 11:49:25.677 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.685 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.690 - [Azione      ] - Documento di testing: salute_19.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.690 - [Task        ] - Nome documento: 'scie_tecnologia_17.txt' - (152 / 160)
+18/07/2017 11:49:25.690 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.696 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.701 - [Azione      ] - Documento di testing: scie_tecnologia_17.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.701 - [Task        ] - Nome documento: 'politica_20.txt' - (153 / 160)
+18/07/2017 11:49:25.701 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.705 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.711 - [Azione      ] - Documento di testing: politica_20.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.712 - [Task        ] - Nome documento: 'cucina_03.txt' - (154 / 160)
+18/07/2017 11:49:25.712 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.718 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.724 - [Azione      ] - Documento di testing: cucina_03.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:25.724 - [Task        ] - Nome documento: 'politica_11.txt' - (155 / 160)
+18/07/2017 11:49:25.724 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.729 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.736 - [Azione      ] - Documento di testing: politica_11.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:25.736 - [Task        ] - Nome documento: 'salute_06.txt' - (156 / 160)
+18/07/2017 11:49:25.736 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.742 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.747 - [Azione      ] - Documento di testing: salute_06.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.747 - [Task        ] - Nome documento: 'cinema_13.txt' - (157 / 160)
+18/07/2017 11:49:25.747 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.753 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.757 - [Azione      ] - Documento di testing: cinema_13.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:25.758 - [Task        ] - Nome documento: 'economia_finanza_07.txt' - (158 / 160)
+18/07/2017 11:49:25.758 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.765 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.772 - [Azione      ] - Documento di testing: economia_finanza_07.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.772 - [Task        ] - Nome documento: 'economia_finanza_16.txt' - (159 / 160)
+18/07/2017 11:49:25.772 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.778 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.786 - [Azione      ] - Documento di testing: economia_finanza_16.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:25.786 - [Task        ] - Nome documento: 'salute_08.txt' - (160 / 160)
+18/07/2017 11:49:25.786 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.791 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.796 - [Azione      ] - Documento di testing: salute_08.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:25.796 - [Fase        ] - Fine test. Corretti su totali: 160/160
+18/07/2017 11:49:25.797 - [Azione      ] - Vengono considerate NEAR POSITIVE solo le classi con cui è stato fatto almeno un errore. Nessuna classe è NPOS se non ci sono errori.
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: ambiente, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: cinema, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: cucina, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: economia, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: motori, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: politica, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: salute, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: scie, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: spettacoli, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Azione      ] - Classe: sport, 0 ha NEAR POSITIVE: 
+18/07/2017 11:49:25.797 - [Task        ] - Ricalcolo i centroidi sfruttando i NEAR POSITIVE
+18/07/2017 11:49:25.797 - [Azione      ] - Calcolo centroide per la classe 'ambiente' (1/10)
+18/07/2017 11:49:25.809 - [Azione      ] - Calcolo centroide per la classe 'cinema' (2/10)
+18/07/2017 11:49:25.820 - [Azione      ] - Calcolo centroide per la classe 'cucina' (3/10)
+18/07/2017 11:49:25.830 - [Azione      ] - Calcolo centroide per la classe 'economia' (4/10)
+18/07/2017 11:49:25.847 - [Azione      ] - Calcolo centroide per la classe 'motori' (5/10)
+18/07/2017 11:49:25.856 - [Azione      ] - Calcolo centroide per la classe 'politica' (6/10)
+18/07/2017 11:49:25.863 - [Azione      ] - Calcolo centroide per la classe 'salute' (7/10)
+18/07/2017 11:49:25.871 - [Azione      ] - Calcolo centroide per la classe 'scie' (8/10)
+18/07/2017 11:49:25.877 - [Azione      ] - Calcolo centroide per la classe 'spettacoli' (9/10)
+18/07/2017 11:49:25.882 - [Azione      ] - Calcolo centroide per la classe 'sport' (10/10)
+18/07/2017 11:49:25.888 - [Fase        ] - Fine del training
+18/07/2017 11:49:25.888 - [Task        ] - Testing sui testing documents
+18/07/2017 11:49:25.888 - [Fase        ] - Inizio il testing
+18/07/2017 11:49:25.888 - [Task        ] - Nome documento: 'sport_07.txt' - (1 / 40)
+18/07/2017 11:49:25.888 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.893 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.897 - [Azione      ] - Documento di testing: sport_07.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.897 - [Task        ] - Nome documento: 'sport_15.txt' - (2 / 40)
+18/07/2017 11:49:25.897 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.903 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.907 - [Azione      ] - Documento di testing: sport_15.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.907 - [Task        ] - Nome documento: 'motori_15.txt' - (3 / 40)
+18/07/2017 11:49:25.907 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.913 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.918 - [Azione      ] - Documento di testing: motori_15.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:25.918 - [Task        ] - Nome documento: 'spettacoli_07.txt' - (4 / 40)
+18/07/2017 11:49:25.918 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.926 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.930 - [Azione      ] - Documento di testing: spettacoli_07.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:25.930 - [Task        ] - Nome documento: 'motori_08.txt' - (5 / 40)
+18/07/2017 11:49:25.930 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.936 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.940 - [Azione      ] - Documento di testing: motori_08.txt. Classe migliore: sport, Classe reale: motori
+18/07/2017 11:49:25.941 - [Task        ] - Nome documento: 'ambiente_13.txt' - (6 / 40)
+18/07/2017 11:49:25.941 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.944 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.948 - [Azione      ] - Documento di testing: ambiente_13.txt. Classe migliore: scie, Classe reale: ambiente
+18/07/2017 11:49:25.949 - [Task        ] - Nome documento: 'scie_tecnologia_08.txt' - (7 / 40)
+18/07/2017 11:49:25.949 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.952 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.959 - [Azione      ] - Documento di testing: scie_tecnologia_08.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:25.959 - [Task        ] - Nome documento: 'scie_tecnologia_15.txt' - (8 / 40)
+18/07/2017 11:49:25.959 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.963 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.970 - [Azione      ] - Documento di testing: scie_tecnologia_15.txt. Classe migliore: ambiente, Classe reale: scie
+18/07/2017 11:49:25.970 - [Task        ] - Nome documento: 'sport_06.txt' - (9 / 40)
+18/07/2017 11:49:25.970 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.974 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.978 - [Azione      ] - Documento di testing: sport_06.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:25.978 - [Task        ] - Nome documento: 'ambiente_09.txt' - (10 / 40)
+18/07/2017 11:49:25.979 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.987 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:25.992 - [Azione      ] - Documento di testing: ambiente_09.txt. Classe migliore: salute, Classe reale: ambiente
+18/07/2017 11:49:25.992 - [Task        ] - Nome documento: 'politica_15.txt' - (11 / 40)
+18/07/2017 11:49:25.992 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:25.996 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.005 - [Azione      ] - Documento di testing: politica_15.txt. Classe migliore: economia, Classe reale: politica
+18/07/2017 11:49:26.005 - [Task        ] - Nome documento: 'politica_01.txt' - (12 / 40)
+18/07/2017 11:49:26.005 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.014 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.021 - [Azione      ] - Documento di testing: politica_01.txt. Classe migliore: sport, Classe reale: politica
+18/07/2017 11:49:26.021 - [Task        ] - Nome documento: 'politica_12.txt' - (13 / 40)
+18/07/2017 11:49:26.021 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.028 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.032 - [Azione      ] - Documento di testing: politica_12.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:26.032 - [Task        ] - Nome documento: 'economia_finanza_03.txt' - (14 / 40)
+18/07/2017 11:49:26.032 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.035 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.039 - [Azione      ] - Documento di testing: economia_finanza_03.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:26.039 - [Task        ] - Nome documento: 'motori_02.txt' - (15 / 40)
+18/07/2017 11:49:26.039 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.043 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.047 - [Azione      ] - Documento di testing: motori_02.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:26.047 - [Task        ] - Nome documento: 'cinema_09.txt' - (16 / 40)
+18/07/2017 11:49:26.047 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.053 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.057 - [Azione      ] - Documento di testing: cinema_09.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:26.057 - [Task        ] - Nome documento: 'cinema_17.txt' - (17 / 40)
+18/07/2017 11:49:26.057 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.061 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.065 - [Azione      ] - Documento di testing: cinema_17.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:26.065 - [Task        ] - Nome documento: 'ambiente_01.txt' - (18 / 40)
+18/07/2017 11:49:26.065 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.070 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.074 - [Azione      ] - Documento di testing: ambiente_01.txt. Classe migliore: salute, Classe reale: ambiente
+18/07/2017 11:49:26.074 - [Task        ] - Nome documento: 'cinema_03.txt' - (19 / 40)
+18/07/2017 11:49:26.074 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.081 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.085 - [Azione      ] - Documento di testing: cinema_03.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:26.085 - [Task        ] - Nome documento: 'spettacoli_15.txt' - (20 / 40)
+18/07/2017 11:49:26.085 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.088 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.092 - [Azione      ] - Documento di testing: spettacoli_15.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:26.092 - [Task        ] - Nome documento: 'motori_14.txt' - (21 / 40)
+18/07/2017 11:49:26.092 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.095 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.099 - [Azione      ] - Documento di testing: motori_14.txt. Classe migliore: motori, Classe reale: motori
+18/07/2017 11:49:26.099 - [Task        ] - Nome documento: 'ambiente_20.txt' - (22 / 40)
+18/07/2017 11:49:26.099 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.101 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.105 - [Azione      ] - Documento di testing: ambiente_20.txt. Classe migliore: ambiente, Classe reale: ambiente
+18/07/2017 11:49:26.105 - [Task        ] - Nome documento: 'spettacoli_11.txt' - (23 / 40)
+18/07/2017 11:49:26.105 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.110 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.114 - [Azione      ] - Documento di testing: spettacoli_11.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:26.114 - [Task        ] - Nome documento: 'cucina_15.txt' - (24 / 40)
+18/07/2017 11:49:26.114 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.118 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.123 - [Azione      ] - Documento di testing: cucina_15.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:26.123 - [Task        ] - Nome documento: 'economia_finanza_05.txt' - (25 / 40)
+18/07/2017 11:49:26.123 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.127 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.131 - [Azione      ] - Documento di testing: economia_finanza_05.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:26.131 - [Task        ] - Nome documento: 'cucina_06.txt' - (26 / 40)
+18/07/2017 11:49:26.131 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.140 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.145 - [Azione      ] - Documento di testing: cucina_06.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:26.145 - [Task        ] - Nome documento: 'scie_tecnologia_05.txt' - (27 / 40)
+18/07/2017 11:49:26.145 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.152 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.157 - [Azione      ] - Documento di testing: scie_tecnologia_05.txt. Classe migliore: spettacoli, Classe reale: scie
+18/07/2017 11:49:26.157 - [Task        ] - Nome documento: 'spettacoli_04.txt' - (28 / 40)
+18/07/2017 11:49:26.157 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.169 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.173 - [Azione      ] - Documento di testing: spettacoli_04.txt. Classe migliore: spettacoli, Classe reale: spettacoli
+18/07/2017 11:49:26.173 - [Task        ] - Nome documento: 'cucina_12.txt' - (29 / 40)
+18/07/2017 11:49:26.173 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.177 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.181 - [Azione      ] - Documento di testing: cucina_12.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:26.181 - [Task        ] - Nome documento: 'salute_05.txt' - (30 / 40)
+18/07/2017 11:49:26.181 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.188 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.192 - [Azione      ] - Documento di testing: salute_05.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:26.192 - [Task        ] - Nome documento: 'salute_07.txt' - (31 / 40)
+18/07/2017 11:49:26.193 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.198 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.205 - [Azione      ] - Documento di testing: salute_07.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:26.205 - [Task        ] - Nome documento: 'sport_16.txt' - (32 / 40)
+18/07/2017 11:49:26.205 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.210 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.216 - [Azione      ] - Documento di testing: sport_16.txt. Classe migliore: sport, Classe reale: sport
+18/07/2017 11:49:26.216 - [Task        ] - Nome documento: 'politica_16.txt' - (33 / 40)
+18/07/2017 11:49:26.216 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.221 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.226 - [Azione      ] - Documento di testing: politica_16.txt. Classe migliore: politica, Classe reale: politica
+18/07/2017 11:49:26.226 - [Task        ] - Nome documento: 'salute_12.txt' - (34 / 40)
+18/07/2017 11:49:26.226 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.231 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.238 - [Azione      ] - Documento di testing: salute_12.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:26.238 - [Task        ] - Nome documento: 'economia_finanza_20.txt' - (35 / 40)
+18/07/2017 11:49:26.238 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.242 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.246 - [Azione      ] - Documento di testing: economia_finanza_20.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:26.246 - [Task        ] - Nome documento: 'cinema_19.txt' - (36 / 40)
+18/07/2017 11:49:26.246 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.248 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.252 - [Azione      ] - Documento di testing: cinema_19.txt. Classe migliore: cinema, Classe reale: cinema
+18/07/2017 11:49:26.252 - [Task        ] - Nome documento: 'salute_03.txt' - (37 / 40)
+18/07/2017 11:49:26.252 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.257 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.261 - [Azione      ] - Documento di testing: salute_03.txt. Classe migliore: salute, Classe reale: salute
+18/07/2017 11:49:26.261 - [Task        ] - Nome documento: 'economia_finanza_10.txt' - (38 / 40)
+18/07/2017 11:49:26.261 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.266 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.270 - [Azione      ] - Documento di testing: economia_finanza_10.txt. Classe migliore: economia, Classe reale: economia
+18/07/2017 11:49:26.270 - [Task        ] - Nome documento: 'scie_tecnologia_01.txt' - (39 / 40)
+18/07/2017 11:49:26.270 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.281 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.286 - [Azione      ] - Documento di testing: scie_tecnologia_01.txt. Classe migliore: scie, Classe reale: scie
+18/07/2017 11:49:26.286 - [Task        ] - Nome documento: 'cucina_19.txt' - (40 / 40)
+18/07/2017 11:49:26.286 - [Azione      ] - Calcolo del vettore tf per il documento
+18/07/2017 11:49:26.290 - [Azione      ] - Inizio confronto per ogni classe
+18/07/2017 11:49:26.294 - [Azione      ] - Documento di testing: cucina_19.txt. Classe migliore: cucina, Classe reale: cucina
+18/07/2017 11:49:26.294 - [Fase        ] - Fine test. Corretti su totali: 32/40

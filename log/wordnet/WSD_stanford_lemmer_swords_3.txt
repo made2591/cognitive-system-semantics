@@ -1,0 +1,7 @@
+18/07/2017 08:07:25.443 - [Fase        ] - Sentence in ingresso: 'The house was burnt to ashes while the owner returned.'
+18/07/2017 08:07:25.445 - [Task        ] - Pulisco la stringa 'The house was burnt to ashes w...' tramite espressione regolare
+18/07/2017 08:07:25.446 - [Fase        ] - Chiamo LESK su tutti i termini della sentence (ancora da stemmatizzare): 'the house was burnt to ashes while the owner returned'
+18/07/2017 08:07:25.446 - [Task        ] - Analizzo il termine 'the' - 1 di 10
+18/07/2017 08:07:25.447 - [Task        ] - Creo il contesto a partire dalla sentence
+18/07/2017 08:07:26.407 - [Task        ] - Creato il contesto: the; house; be; burnt; to; ash; while; the; owner; return
+

@@ -1,0 +1,20 @@
+18/07/2017 08:12:40.652 - [Fase        ] - Sentence in ingresso: 'The house was burnt to ashes while the owner returned.'
+18/07/2017 08:12:40.654 - [Task        ] - Pulisco la stringa 'The house was burnt to ashes w...' tramite espressione regolare
+18/07/2017 08:12:40.656 - [Task        ] - Rimuovo le stopwords 'the; the; to; was; while; '
+18/07/2017 08:12:40.657 - [Task        ] - Eseguo Lesk su tutti i termini della sentence (ancora da stemmatizzare): 'house burnt ashes owner returned'
+18/07/2017 08:12:40.657 - [Task        ] - Analizzo il termine 'house' - 1 di 5
+18/07/2017 08:12:40.657 - [Azione      ] - Creo il contesto a partire dalla sentence, sfruttando lo stemmer RiTa (opzione: 1)
+18/07/2017 08:12:40.659 - [Azione      ] - Cerco il migliore POS TAG per il termine 'house'
+18/07/2017 08:12:40.675 - [Azione      ] - Cerco il migliore POS TAG per il termine 'burnt'
+18/07/2017 08:12:40.676 - [Azione      ] - Cerco il migliore POS TAG per il termine 'ashes'
+18/07/2017 08:12:40.679 - [Azione      ] - Cerco il migliore POS TAG per il termine 'owner'
+18/07/2017 08:12:40.683 - [Azione      ] - Cerco il migliore POS TAG per il termine 'returned'
+18/07/2017 08:12:40.685 - [Azione      ] - Contesto creato: house; burnt; ash; owner; returned
+
+18/07/2017 08:12:40.685 - [Task        ] - Recupero tutti i sensi per il termine 'house'
+18/07/2017 08:12:40.686 - [Azione      ] - Cerco il migliore POS TAG per il termine 'house'
+18/07/2017 08:12:40.686 - [Azione      ] - Analizzo ogni senso del termine
+18/07/2017 08:12:40.697 - [Task        ] - Pulisco la stringa 'a dwelling that serves as livi...' tramite espressione regolare
+18/07/2017 08:12:40.701 - [Task        ] - Rimuovo le stopwords 'a; a; as; for; get; had; has; he; more; of; on; one; or; out; she; she; that; the; to; '
+18/07/2017 08:12:40.702 - [Task        ] - Pulisco la stringa 'she felt she had to get out of...' tramite espressione regolare
+18/07/2017 08:12:40.704 - [Task        ] - Rimuovo le stopwords 'get; had; of; out; she; she; the; to; '

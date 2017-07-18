@@ -1,0 +1,4852 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rocchio</title>
+
+    <!-- Bootstrap -->
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../lib/js/bootstrap.min.js"></script><body class=" ext-webkit ext-chrome ext-mac">
+
+    <div class="container">
+ <div class="jumbotron">
+        <h3>Esercitazione 3 - Radicioni Rocchio</h3>
+        <p class="lead">Questo file contiene il log dell'Esercitazione 3<br/><br/>I file di log di questo esercizio si trovano in:<br/>ROCCHIO_3_16.0_40.0_2_0.8_0.0_0.2<br/>Con il significato di: BABELNET_[numero_versione]_[beta_val]_[gamma_val]_[near_pos_mode_val]_[train]_[dev]_[test]</p>
+      </div>
+
+      <div class="row marketing">
+<h1>Giorno: lug 18, 2017 23:49</h1>
+<table class="table">
+      <thead>
+        <tr>
+          <th style="width: 15%;">Livello</th>
+          <th style="width: 20%;">Giorno e ora</th>
+          <th style="width: 65%;">Messaggio</th>
+     </tr>
+      </thead>
+      <tbody>	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio il training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Carico un dump E RANDOMIZZO l'ordine dei documenti per training/developing/testing</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio la costruzione dello space vector model</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Numero di file presenti: 200</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'cucina', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'ambiente', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'motori', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'economia', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'scie', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'cinema', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'sport', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'spettacoli', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'politica', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: 'salute', Totale documenti: 20. Utilizzo training: 16 / developing: 0 / testing: 4</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 0.0% (2 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 1.0% (4 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 2.0% (5 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 3.0% (7 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 4.0% (9 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 5.0% (10 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 6.0% (12 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 7.0% (13 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 8.0% (15 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 9.0% (17 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 10.0% (18 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 11.0% (20 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 12.0% (21 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 13.0% (23 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 14.0% (25 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 15.0% (26 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 16.0% (28 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 17.0% (29 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 18.0% (31 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 19.0% (33 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 20.0% (34 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 21.0% (36 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 22.0% (37 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 23.0% (39 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 24.0% (41 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 25.0% (42 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 26.0% (44 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 27.0% (45 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 28.0% (47 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 29.0% (49 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 30.0% (50 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 31.0% (52 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 32.0% (53 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 33.0% (55 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 34.0% (57 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 35.0% (58 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 36.0% (60 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 37.0% (61 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 38.0% (63 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 39.0% (65 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 40.0% (66 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 41.0% (68 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 42.0% (69 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 43.0% (71 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 44.0% (73 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 45.0% (74 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 46.0% (76 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 47.0% (77 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 48.0% (79 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 49.0% (81 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 50.0% (82 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 51.0% (84 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 52.0% (85 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 53.0% (87 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 54.0% (89 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 55.0% (90 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 56.0% (92 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 57.0% (93 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 58.0% (95 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 59.0% (97 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 60.0% (98 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 61.0% (100 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 62.0% (101 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 63.0% (103 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 64.0% (105 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 65.0% (106 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 66.0% (108 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 67.0% (109 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 68.0% (111 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 69.0% (113 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 70.0% (114 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 71.0% (116 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 72.0% (117 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 73.0% (119 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 74.0% (121 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 75.0% (122 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 76.0% (124 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 77.0% (125 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 78.0% (127 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 79.0% (129 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 80.0% (130 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 81.0% (132 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 82.0% (133 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 83.0% (135 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 84.0% (137 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 85.0% (138 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 86.0% (140 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 87.0% (141 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 88.0% (143 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 89.0% (145 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 90.0% (146 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 91.0% (148 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 92.0% (149 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 93.0% (151 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 94.0% (153 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 95.0% (154 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 96.0% (156 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 97.0% (157 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 98.0% (159 di 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Training al 99.0% (161 di 160)</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizializzo le dimensioni dello spazio: 12118</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizializzo le classi dello spazio: 10</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo il vettore TF per i 200 documenti usati per il training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo il vettore IDF per i 12118 termini (dimensioni) dello spazio</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo il centroide per le 10 classi individuate</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'ambiente' (1/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'cinema' (2/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'cucina' (3/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'economia' (4/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'motori' (5/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'politica' (6/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'salute' (7/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'scie' (8/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'spettacoli' (9/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'sport' (10/10)</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio il testing per il calcolo dei NEAR POSITIVE (distanzio centroidi più vicini)</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo i NEAR POSITIVE facendo testing e guardando gli errori sui documenti di training</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio il testing</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_20.txt' - (1 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_20.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_10.txt' - (2 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_10.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_08.txt' - (3 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_08.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_19.txt' - (4 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_19.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_07.txt' - (5 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_07.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_02.txt' - (6 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_02.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_03.txt' - (7 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_03.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_17.txt' - (8 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_17.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_16.txt' - (9 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_16.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_14.txt' - (10 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_14.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_05.txt' - (11 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_05.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_09.txt' - (12 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_09.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_06.txt' - (13 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_06.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_05.txt' - (14 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_05.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_10.txt' - (15 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_10.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_20.txt' - (16 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_20.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_12.txt' - (17 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_12.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_12.txt' - (18 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_12.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_14.txt' - (19 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_14.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_12.txt' - (20 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_12.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_04.txt' - (21 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_04.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_05.txt' - (22 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_05.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_10.txt' - (23 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_10.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_14.txt' - (24 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_14.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_06.txt' - (25 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_06.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_15.txt' - (26 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_15.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_11.txt' - (27 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_11.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_16.txt' - (28 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_16.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_13.txt' - (29 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_13.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_12.txt' - (30 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_12.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_15.txt' - (31 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_15.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_01.txt' - (32 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_01.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_16.txt' - (33 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_16.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_15.txt' - (34 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_15.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_07.txt' - (35 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_07.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_19.txt' - (36 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_19.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_13.txt' - (37 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_13.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_18.txt' - (38 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_18.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_02.txt' - (39 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_02.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_18.txt' - (40 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_18.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_01.txt' - (41 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_01.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_01.txt' - (42 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_01.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_08.txt' - (43 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_08.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_06.txt' - (44 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_06.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_17.txt' - (45 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_17.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_12.txt' - (46 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_12.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_10.txt' - (47 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_10.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_14.txt' - (48 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_14.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_11.txt' - (49 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_11.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_06.txt' - (50 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_06.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_02.txt' - (51 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_02.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_18.txt' - (52 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_18.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_17.txt' - (53 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_17.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_03.txt' - (54 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_03.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_04.txt' - (55 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_04.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_13.txt' - (56 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_13.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_13.txt' - (57 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_13.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_20.txt' - (58 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_20.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_16.txt' - (59 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_16.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_03.txt' - (60 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_03.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_08.txt' - (61 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_08.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_10.txt' - (62 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_10.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_11.txt' - (63 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_11.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_04.txt' - (64 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_04.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_08.txt' - (65 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_08.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_04.txt' - (66 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_04.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_03.txt' - (67 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_03.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_14.txt' - (68 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_14.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_02.txt' - (69 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_02.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_19.txt' - (70 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_19.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_04.txt' - (71 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_04.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_05.txt' - (72 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_05.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_08.txt' - (73 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_08.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_09.txt' - (74 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_09.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_12.txt' - (75 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_12.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_03.txt' - (76 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_03.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_11.txt' - (77 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_11.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_08.txt' - (78 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_08.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_10.txt' - (79 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_10.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_18.txt' - (80 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_18.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_14.txt' - (81 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_14.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_02.txt' - (82 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_02.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_19.txt' - (83 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_19.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_02.txt' - (84 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_02.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_09.txt' - (85 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_09.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_05.txt' - (86 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_05.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_16.txt' - (87 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_16.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_03.txt' - (88 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_03.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_18.txt' - (89 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_18.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_14.txt' - (90 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_14.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_13.txt' - (91 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_13.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_12.txt' - (92 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_12.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_18.txt' - (93 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_18.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_01.txt' - (94 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_01.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_15.txt' - (95 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_15.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_14.txt' - (96 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_14.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_11.txt' - (97 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_11.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_16.txt' - (98 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_16.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_17.txt' - (99 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_17.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_07.txt' - (100 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_07.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_19.txt' - (101 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_19.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_16.txt' - (102 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_16.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_06.txt' - (103 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_06.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_06.txt' - (104 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_06.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_04.txt' - (105 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_04.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_10.txt' - (106 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_10.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_05.txt' - (107 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_05.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_07.txt' - (108 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_07.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_05.txt' - (109 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_05.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_20.txt' - (110 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_20.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_19.txt' - (111 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_19.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_18.txt' - (112 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_18.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_18.txt' - (113 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_18.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_04.txt' - (114 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_04.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_11.txt' - (115 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_11.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_17.txt' - (116 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_17.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_04.txt' - (117 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_04.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_02.txt' - (118 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_02.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_06.txt' - (119 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_06.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_01.txt' - (120 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_01.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_10.txt' - (121 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_10.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_19.txt' - (122 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_19.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_13.txt' - (123 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_13.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_01.txt' - (124 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_01.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_02.txt' - (125 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_02.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_17.txt' - (126 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_17.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_07.txt' - (127 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_07.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_10.txt' - (128 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_10.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_13.txt' - (129 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_13.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_11.txt' - (130 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_11.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_13.txt' - (131 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_13.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_20.txt' - (132 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_20.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_02.txt' - (133 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_02.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_04.txt' - (134 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_04.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_09.txt' - (135 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_09.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_08.txt' - (136 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_08.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_09.txt' - (137 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_09.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_20.txt' - (138 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_20.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_14.txt' - (139 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_14.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_07.txt' - (140 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_07.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_09.txt' - (141 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_09.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_18.txt' - (142 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_18.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_20.txt' - (143 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_20.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_17.txt' - (144 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_17.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_11.txt' - (145 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_11.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_18.txt' - (146 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_18.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_09.txt' - (147 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_09.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_01.txt' - (148 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_01.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_09.txt' - (149 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_09.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_17.txt' - (150 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_17.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_19.txt' - (151 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_19.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_17.txt' - (152 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_17.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_20.txt' - (153 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_20.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_03.txt' - (154 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_03.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_11.txt' - (155 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_11.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_06.txt' - (156 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_06.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_13.txt' - (157 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_13.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_07.txt' - (158 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_07.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_16.txt' - (159 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_16.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_08.txt' - (160 / 160)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_08.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Fine test. Corretti su totali: 160/160</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Vengono considerate NEAR POSITIVE solo le classi con cui è stato fatto almeno un errore. Nessuna classe è NPOS se non ci sono errori.</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: ambiente, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: cinema, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: cucina, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: economia, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: motori, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: politica, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: salute, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: scie, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: spettacoli, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Classe: sport, 0 ha NEAR POSITIVE: </td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Ricalcolo i centroidi sfruttando i NEAR POSITIVE</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'ambiente' (1/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'cinema' (2/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'cucina' (3/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'economia' (4/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'motori' (5/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'politica' (6/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'salute' (7/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'scie' (8/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'spettacoli' (9/10)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo centroide per la classe 'sport' (10/10)</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Fine del training</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Testing sui testing documents</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio il testing</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_07.txt' - (1 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_07.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_15.txt' - (2 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_15.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_15.txt' - (3 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_15.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_07.txt' - (4 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_07.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_08.txt' - (5 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_08.txt. Classe migliore: sport, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_13.txt' - (6 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_13.txt. Classe migliore: scie, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_08.txt' - (7 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_08.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_15.txt' - (8 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_15.txt. Classe migliore: ambiente, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_06.txt' - (9 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_06.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_09.txt' - (10 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_09.txt. Classe migliore: salute, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_15.txt' - (11 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_15.txt. Classe migliore: economia, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_01.txt' - (12 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_01.txt. Classe migliore: sport, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_12.txt' - (13 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_12.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_03.txt' - (14 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_03.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_02.txt' - (15 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_02.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_09.txt' - (16 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_09.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_17.txt' - (17 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_17.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_01.txt' - (18 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_01.txt. Classe migliore: salute, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_03.txt' - (19 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_03.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_15.txt' - (20 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_15.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'motori_14.txt' - (21 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: motori_14.txt. Classe migliore: motori, Classe reale: motori</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'ambiente_20.txt' - (22 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: ambiente_20.txt. Classe migliore: ambiente, Classe reale: ambiente</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_11.txt' - (23 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_11.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_15.txt' - (24 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_15.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_05.txt' - (25 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_05.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_06.txt' - (26 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_06.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_05.txt' - (27 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_05.txt. Classe migliore: spettacoli, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'spettacoli_04.txt' - (28 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: spettacoli_04.txt. Classe migliore: spettacoli, Classe reale: spettacoli</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_12.txt' - (29 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_12.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_05.txt' - (30 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_05.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_07.txt' - (31 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_07.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'sport_16.txt' - (32 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: sport_16.txt. Classe migliore: sport, Classe reale: sport</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'politica_16.txt' - (33 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: politica_16.txt. Classe migliore: politica, Classe reale: politica</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_12.txt' - (34 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_12.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_20.txt' - (35 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_20.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cinema_19.txt' - (36 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cinema_19.txt. Classe migliore: cinema, Classe reale: cinema</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'salute_03.txt' - (37 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: salute_03.txt. Classe migliore: salute, Classe reale: salute</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'economia_finanza_10.txt' - (38 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: economia_finanza_10.txt. Classe migliore: economia, Classe reale: economia</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'scie_tecnologia_01.txt' - (39 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: scie_tecnologia_01.txt. Classe migliore: scie, Classe reale: scie</td>
+</tr>
+	<tr class="success">
+	<td style="font-size: 14px;"><b>Task        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Nome documento: 'cucina_19.txt' - (40 / 40)</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Calcolo del vettore tf per il documento</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Inizio confronto per ogni classe</td>
+</tr>
+	<tr class="danger">
+	<td>Azione      </td>
+	<td>lug 18,2017 23:49</td>
+	<td>Documento di testing: cucina_19.txt. Classe migliore: cucina, Classe reale: cucina</td>
+</tr>
+	<tr class="info">
+	<td style="font-size: 14px;"><b>Fase        </b></td>
+	<td>lug 18,2017 23:49</td>
+	<td>Fine test. Corretti su totali: 32/40</td>
+</tr>
+</table></div>
+
+      <footer class="footer">
+        <p>© Matteo Madeddu - Dipartimento di Informatica 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<iframe id="rdbIndicator" width="100%" height="270" border="0" src="chrome-extension://oknpjjbmpnndlpmnhmekjpocelpnlfdi/indicator.html" style="display: none; border: 0; position: fixed; left: 0; top: 0; z-index: 2147483647"></iframe>
+</body>
+</html>

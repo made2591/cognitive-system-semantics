@@ -1,0 +1,10 @@
+18/07/2017 09:21:41.235 - [Fase        ] - Inizio il training
+18/07/2017 09:21:41.238 - [Task        ] - Carico un dump E RANDOMIZZO l'ordine dei documenti per training/developing/testing
+18/07/2017 09:21:42.318 - [Fase        ] - Inizio la costruzione dello space vector model
+18/07/2017 09:21:42.320 - [Task        ] - Calcolo il vettore TF per i 200 documenti usati per il training
+18/07/2017 09:21:42.320 - [Task        ] - Calcolo il vettore IDF per i 0 termini (dimensioni) dello spazio
+18/07/2017 09:21:42.320 - [Task        ] - Calcolo il centroide per le 0 classi individuate
+18/07/2017 09:21:42.320 - [Fase        ] - Fine del training
+18/07/2017 09:21:42.321 - [Task        ] - Testing sui testing documents
+18/07/2017 09:21:42.321 - [Fase        ] - Inizio il testing
+18/07/2017 09:21:42.321 - [Fase        ] - Fine test. Corretti su totali: 0/0
